@@ -1,0 +1,448 @@
+dnl
+dnl Main
+dnl
+
+AC_INIT(g2ipmsg, 0.9.6, http://www.ipmsg.org/index.html.en)
+AC_CONFIG_SRCDIR(src/main.c)
+
+dnl
+dnl Doxygen
+dnl
+DX_HTML_FEATURE(ON)
+DX_CHM_FEATURE(OFF)
+DX_CHI_FEATURE(OFF)
+DX_MAN_FEATURE(OFF)
+DX_RTF_FEATURE(OFF)
+DX_XML_FEATURE(OFF)
+DX_PDF_FEATURE(OFF)
+DX_PS_FEATURE(OFF)
+DX_INIT_DOXYGEN(g2ipmsg, doc/Doxyfile, doc/internal)
+
+AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
+AC_SUBST(PACKAGE)
+AM_MAINTAINER_MODE
+AM_CONFIG_HEADER(config.h)
+
+AC_ISC_POSIX
+AC_PROG_CC
+AM_PROG_CC_STDC
+AC_PROG_INTLTOOL([0.31])
+AC_HEADER_STDC
+AC_SYS_LARGEFILE
+
+GETTEXT_PACKAGE=g2ipmsg
+AC_SUBST(GETTEXT_PACKAGE)
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXTPACKAGE", [Gettext package.])
+AC_CHECK_HEADERS(libintl.h)
+
+dnl **********************************************************************
+dnl Check standard C library 
+dnl **********************************************************************
+AC_CHECK_FUNCS(dirfd)
+AC_CHECK_FUNCS(asctime_r localtime_r)
+
+dnl **********************************************************************
+dnl Check for the presence of SSL libraries and headers (From curl)
+dnl **********************************************************************
+
+dnl Default to compiler & linker defaults for SSL files & libraries.
+OPT_SSL=off
+dnl Default to no CA bundle
+ca="no"
+OPENSSL_ENABLED="no"
+AC_ARG_WITH(ssl,dnl
+AC_HELP_STRING([--with-ssl=PATH],[where to look for OpenSSL, PATH points to the OpenSSL installation (default: /usr/local/ssl)])
+AC_HELP_STRING([--without-ssl], [disable OpenSSL]),
+  OPT_SSL=$withval)
+
+if test X"$OPT_SSL" != Xno; then
+  dnl backup the pre-ssl variables
+  CLEANLDFLAGS="$LDFLAGS"
+  CLEANCPPFLAGS="$CPPFLAGS"
+  CLEANLIBS="$LIBS"
+
+  SSL_LDFLAGS=""
+  SSL_CPPFLAGS=""
+  SSL_LIBS=""
+
+
+  case "$OPT_SSL" in
+  yes)
+    dnl --with-ssl (without path) used
+    if test x$cross_compiling != xyes; then
+      dnl only do pkg-config magic when not cross-compiling
+      PKGTEST="yes"
+    fi
+    PREFIX_OPENSSL=/usr/local/ssl
+    LIB_OPENSSL="$PREFIX_OPENSSL/lib$libsuff"
+    ;;
+  off)
+    dnl no --with-ssl option given, just check default places
+    if test x$cross_compiling != xyes; then
+      dnl only do pkg-config magic when not cross-compiling
+      PKGTEST="yes"
+    fi
+    PREFIX_OPENSSL=
+    ;;
+  *)
+    dnl check the given --with-ssl spot
+    PKGTEST="no"
+    PREFIX_OPENSSL=$OPT_SSL
+    LIB_OPENSSL="$PREFIX_OPENSSL/lib$libsuff"
+    SSL_LDFLAGS="-L$LIB_OPENSSL"
+    SSL_CPPFLAGS="-I$PREFIX_OPENSSL/include/openssl -I$PREFIX_OPENSSL/include"
+    ;;
+  esac
+
+  if test "$PKGTEST" = "yes"; then
+
+    dnl Detect the pkg-config tool, as it may have extra info about the
+    dnl openssl installation we can use. I *believe* this is what we are
+    dnl expected to do on really recent Redhat Linux hosts.
+
+    AC_PATH_PROG(PKGCONFIG, pkg-config, no, $PATH:/usr/bin:/usr/local/bin)
+    if test "$PKGCONFIG" != "no" ; then
+      AC_MSG_CHECKING([OpenSSL options with pkg-config])
+
+      $PKGCONFIG --exists openssl
+      SSL_EXISTS=$?
+
+      if test "$SSL_EXISTS" -eq "0"; then
+        SSL_LIBS=`$PKGCONFIG --libs-only-l openssl 2>/dev/null`
+        SSL_LDFLAGS=`$PKGCONFIG --libs-only-L openssl 2>/dev/null`
+        SSL_CPPFLAGS=`$PKGCONFIG --cflags-only-I openssl 2>/dev/null`
+
+	LIB_OPENSSL=`echo $SSL_LDFLAGS | sed -e 's/-L//g'`
+
+        dnl use the values pkg-config reported
+        LIBS="$LIBS $SSL_LIBS"
+        AC_MSG_RESULT([found])
+      else
+        AC_MSG_RESULT([no])
+      fi
+    fi
+  fi
+
+  dnl This is for Msys/Mingw
+  AC_MSG_CHECKING([for gdi32])
+  my_ac_save_LIBS=$LIBS
+  LIBS="-lgdi32 $LIBS"
+  AC_TRY_LINK([#include <windef.h>
+               #include <wingdi.h>],
+               [GdiFlush();],
+               [ dnl worked!
+               AC_MSG_RESULT([yes])],
+               [ dnl failed, restore LIBS
+               LIBS=$my_ac_save_LIBS
+               AC_MSG_RESULT(no)]
+              )
+
+  AC_CHECK_LIB(crypto, CRYPTO_lock,[
+     HAVECRYPTO="yes"
+     LIBS="-lcrypto $LIBS"
+     ],[
+     LDFLAGS="$CLEANLDFLAGS -L$LIB_OPENSSL"
+     CPPFLAGS="$CLEANCPPFLAGS -I$PREFIX_OPENSSL/include/openssl -I$PREFIX_OPENSSL/include"
+     AC_CHECK_LIB(crypto, CRYPTO_add_lock,[
+       HAVECRYPTO="yes"
+       LIBS="-lcrypto $LIBS"], [
+       LDFLAGS="$CLEANLDFLAGS"
+       CPPFLAGS="$CLEANCPPFLAGS"
+       LIBS="$CLEANLIBS"
+       ])
+    ])
+
+
+  if test X"$HAVECRYPTO" = X"yes"; then
+    dnl This is only reasonable to do if crypto actually is there: check for
+    dnl SSL libs NOTE: it is important to do this AFTER the crypto lib
+
+    dnl Have the libraries--check for SSLeay/OpenSSL headers
+    AC_CHECK_HEADERS(openssl/rsa.h openssl/crypto.h \
+                     openssl/rand.h openssl/evp.h openssl/bn.h,
+    OPENSSL_ENABLED=y
+    AC_DEFINE(USE_OPENSSL, [], [if OpenSSL is in use]))
+
+    dnl OPENSSL_ENABLED; the names should really be unified
+    if test X"$OPT_SSL" != Xoff &&
+       test "$OPENSSL_ENABLED" != "y"; then
+      AC_MSG_ERROR([OpenSSL libs and/or directories were not found where specified!])
+    fi
+  fi
+
+  if test X"$OPENSSL_ENABLED" = X"y"; then
+    dnl If the ENGINE library seems to be around, check for the OpenSSL engine
+    dnl stuff, it is kind of "separated" from the main SSL check
+    dnl     AC_CHECK_FUNC(ENGINE_init,
+    dnl               [
+    dnl                 AC_CHECK_HEADERS(openssl/engine.h)
+    dnl                 AC_CHECK_FUNCS( ENGINE_load_builtin_engines )
+    dnl               ])
+
+    dnl these can only exist if openssl exists
+
+    AC_CHECK_FUNCS( RAND_bytes  \
+		    RAND_status \
+		    RAND_seed   \
+		    RAND_poll   \
+                    )
+
+    AC_CHECK_FUNCS(HMAC_CTX_init             \
+	           HMAC_Init                 \
+	           HMAC_Update               \
+	           HMAC_Final                \
+	           HMAC_CTX_cleanup)
+
+    AC_CHECK_FUNCS(EVP_EncryptInit           \
+		   EVP_DecryptInit           \
+		   EVP_EncryptUpdate         \
+		   EVP_EncryptFinal          \
+		   EVP_CIPHER_CTX_block_size \
+		   EVP_CIPHER_CTX_cleanup    \
+	           )
+
+    AC_CHECK_FUNCS(EVP_bf_cbc      \
+	           EVP_rc2_cbc     \
+		   EVP_des_ede_cbc \
+	           EVP_aes_128_cbc \
+	           EVP_aes_192_cbc \
+	           EVP_aes_256_cbc \
+		  )
+
+    AC_CHECK_FUNCS( BN_new       \
+		    BN_bn2hex    \
+		    BN_hex2bn    \
+		    BN_bn2bin    \
+		    BN_rand      \
+		    BN_free      \
+		  )
+
+    AC_CHECK_FUNCS( RSA_new             \
+		    RSA_size            \
+	            RSA_check_key       \
+		    RSA_public_encrypt	\
+		    RSA_private_decrypt \
+		    RSA_sign            \
+		    RSA_free            \
+		  )
+
+    AC_CHECK_FUNCS(PEM_write_RSAPrivateKey \
+		   PEM_read_RSAPrivateKey  \
+	           PEM_write_RSAPublicKey  \
+		   PEM_read_RSAPublicKey   \
+		)
+  fi
+
+  if test "$OPENSSL_ENABLED" = "y"; then
+    if test -n "$LIB_OPENSSL"; then
+       dnl when the ssl shared libs were found in a path that the run-time
+       dnl linker doesn't search through, we need to add it to LD_LIBRARY_PATH
+       dnl to prevent further configure tests to fail due to this
+
+       LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$LIB_OPENSSL"
+       export LD_LIBRARY_PATH
+       AC_MSG_NOTICE([Added $LIB_OPENSSL to LD_LIBRARY_PATH])
+    fi
+  fi
+fi
+AM_CONDITIONAL([OPENSSL_ENABLED], [test "x$OPENSSL_ENABLED" != "xno"])
+
+GTK_REQUIRED=2.4
+GLIB_REQUIRED=2.8
+LIBGNOMEUI_REQUIRED=2.14
+PKG_CHECK_MODULES(G2IPMSG, libgnomeui-2.0 >= $LIBGNOMEUI_REQUIRED
+			gtk+-2.0 >= $GTK_REQUIRED
+			glib-2.0 >= $GLIB_REQUIRED)
+dnl
+dnl DBUS glib bindings checking for screensaver interaction.
+dnl
+
+#
+#Check DBUS glib binding before hand for pretty printing.
+#
+DBUS_REQUIRED=1.0.0
+DBUS_GLIB_REQUIRED=0.30
+PKG_CHECK_MODULES(DBUSGLIB, dbus-1   >= $DBUS_REQUIRED
+			    dbus-glib-1 >= $DBUS_GLIB_REQUIRED, 
+			    dbus_ok="yes", dbus_ok="no")
+DBUSGLIB_ENABLED="no"
+AC_MSG_CHECKING(whether to be enable dbus-glib)
+AC_ARG_ENABLE(dbus-glib, [  --enable-dbus-glib	D-BUS GLib interface (required for GNOME screensaver support)])
+
+if test "x$enable_dbus_glib" != "xno"; then
+   if test "x$dbus_ok" != "xno"; then
+      AC_DEFINE(USE_DBUS, [], [if DBUS and glib bindings is in use])
+      AC_MSG_RESULT(yes)
+      DBUSGLIB_ENABLED="yes"
+   else
+	AC_MSG_RESULT(no)
+   fi
+else
+	AC_MSG_RESULT(no)
+fi
+AC_SUBST(DBUSGLIB_ENABLED)
+AM_CONDITIONAL([DBUSGLIB_ENABLED], [test "x$DBUSGLIB_ENABLED" != "xno"])
+
+dnl
+dnl gnomescreensaver interaction
+dnl
+
+GNOME_SCREENSAVER_ENABLED="no"
+AC_MSG_CHECKING(whether to be enable gnome-screensaver-interaction)
+if test "x$DBUSGLIB_ENABLED" != "xno"; then
+	AC_ARG_ENABLE(gnome-screensaver, 
+	[  --enable-gnome-screensaver	GNOME screensaver interaction support [[default yes]]])
+	if test "x$enable_gnome_screensaver" != "xno"; then
+		GNOME_SCREENSAVER_ENABLED="yes"
+		AC_DEFINE(USE_GNOME_SCREENSAVER, [], [if gnomescreensaver interaction is in use])
+		AC_MSG_RESULT(yes)
+	else
+		AC_MSG_RESULT(no)
+		GNOME_SCREENSAVER_ENABLED="no"
+	fi
+else
+	GNOME_SCREENSAVER_ENABLED="no"
+	AC_MSG_RESULT(no[dbus-glib not available])
+fi
+AC_SUBST(GNOME_SCREENSAVER_ENABLED)
+AM_CONDITIONAL([GNOME_SCREENSAVER_ENABLED], [test "x$GNOME_SCREENSAVER_ENABLED" != "xno"])
+
+dnl
+dnl Systray 
+dnl
+GTK_FULL_REQUIRED=2.10
+PKG_CHECK_MODULES(SYSTRAY, gtk+-2.0 >= $GTK_FULL_REQUIRED, 
+			   systray_ok="yes",systray_ok="no")
+
+AC_ARG_ENABLE(systray,[  --enable-systray  build g2ipmsg application as systray support [[default yes]]])
+AC_MSG_CHECKING(whether to be enable systray)
+if test "x$enable_systray" != "xno"; then
+ 	AC_MSG_RESULT(yes)
+ 	if test "x$systray_ok" = "xyes"; then
+		AC_DEFINE(G2IPMSG_SYSTRAY,[],[Systray enable])
+	else
+		AC_MSG_RESULT(no)
+		AC_MSG_WARN(You need Gtk+-2.10 or later installed if you need systray relevant functions.)
+	fi
+else
+	AC_MSG_RESULT(no)
+fi
+
+dnl
+dnl UTF-8
+dnl
+AC_ARG_ENABLE(utf-8, [  --enable-utf-8	IPMSG UTF-8 extension support(experimental) ])
+AC_MSG_CHECKING(whether to be enable IPMSG UTF-8 extension support)
+if test "x$enable_utf_8" != "xyes"; then
+	AC_MSG_RESULT(no)
+else
+ 	AC_MSG_RESULT(yes)
+	AC_DEFINE(IPMSG_UTF8_SUPPORT, [], [IPMSG UTF-8 extension support enable])
+fi
+
+dnl
+dnl schemas-install
+dnl
+AC_ARG_ENABLE(schemas-install,
+     [  --disable-schemas-install	Disable the schemas installation],
+     [case ${enableval} in
+       yes|no) ;;
+       *) AC_MSG_ERROR(bad value ${enableval} for --enable-schemas-install) ;;
+      esac])
+AM_CONDITIONAL([GCONF_SCHEMAS_INSTALL], [test "$enable_schemas_install" != no])
+
+AC_ARG_ENABLE(applet, [  --enable-applet	  trun on building applet version [[default yes]]],,enable_applet=yes)
+AC_MSG_CHECKING(whether to be enable applet)
+if test x"$enable_applet" != "xno"; then
+	AC_MSG_RESULT(yes)
+	AC_DEFINE([ENABLE_APPLET], [], [enable applet version of g2ipmsg])
+	PKG_CHECK_MODULES(APPLET, libpanelapplet-2.0)
+else
+	AC_MSG_RESULT(no)
+fi
+AM_CONDITIONAL([ENABLE_APPLET],[test "$enable_applet" != "no"])
+
+dnl
+dnl external codeset setting
+dnl 
+AC_PATH_PROG(ICONV, iconv, "", /usr/local/bin:/usr/bin:/bin)
+AC_MSG_CHECKING(external representation character code of ipmsg)
+with_ext_charcode=""
+AC_ARG_WITH(ext-charcode,
+  AC_HELP_STRING([--with-ext-charcode],
+		 [External character code setting(CP936(Simplified Chinese), CP932(Japanese Windows ShiftJIS)) [[default=CP932]]]),,
+  with_ext_charcode=CP932)
+
+if test -n "$with_ext_charcode"; then
+  if test x$cross_compiling != xyes; then
+    if test -n "$ICONV"; then
+	$ICONV --list|grep $with_ext_charcode > /dev/null
+	  if test $? -ne 0; then
+	       echo -n "Character set $with_ext_charcode not found, using default(CP932):"
+	            with_ext_charcode=CP932 #Assume CP932
+	  fi
+    else
+		    #ICONV check is not available.
+		    echo -n "iconv is not available, using $with_ext_charcode:"
+    fi
+  else
+		    #ICONV check is not available in cross compile phase.
+		    echo -n "In cross compilation, using $with_ext_charcode:"
+  fi
+else
+	            with_ext_charcode=CP932 #Using CP932 for 
+fi
+AC_MSG_RESULT($with_ext_charcode)
+
+IPMSG_EXTERNAL_CHARCODE=$with_ext_charcode
+AC_SUBST(IPMSG_EXTERNAL_CHARCODE)
+AC_DEFINE_UNQUOTED(IPMSG_EXTERNAL_CHARCODE,"$IPMSG_EXTERNAL_CHARCODE", [External code set.])
+
+dnl ***************************************************************************
+dnl *** Set install directories                                             ***
+dnl ***************************************************************************
+iconsdir="${datadir}/icons"
+AC_SUBST(iconsdir)
+pixmapsdir="${datadir}/pixmaps"
+AC_SUBST(pixmapsdir)
+pkgdatadir="${datadir}/gnome-applets"
+AC_SUBST(pkgdatadir)
+gladedir="${pkgdatadir}/glade"
+AC_SUBST(gladedir)
+
+AC_DEFINE_DIR(PREFIX, ${prefix}, [install prefix])
+AC_DEFINE_DIR(LIBDIR, ${libdir}, [libdir])
+AC_DEFINE_DIR(DATADIR, ${datadir}, [datadir])
+AC_DEFINE_DIR(SYSCONFDIR, ${sysconfdir}, [sysconfdir])
+AC_DEFINE_DIR(GNOME_ICONDIR, ${iconsdir}, [Gnome Icon Directory])
+AC_DEFINE_DIR(GNOME_PIXMAPSDIR, ${pixmapsdir}, [Gnome Pixmaps Directory])
+AC_DEFINE_DIR(GNOME_GLADEDIR, ${gladedir}, [Glade Resources Directory])
+
+dnl Add the languages which your application supports here.
+ALL_LINGUAS="ja zh_CN"
+AM_GLIB_GNU_GETTEXT
+AM_GCONF_SOURCE_2
+GST_MAJORMINOR=0.10
+PKG_CHECK_MODULES(GST,gstreamer-$GST_MAJORMINOR,HAVE_GST="yes",HAVE_GST="no")
+if test "x$HAVE_GST" = "xyes"; then
+	AC_DEFINE(HAVE_GST,1,[Gstreamer])
+else
+	AC_MSG_WARN(You need GStreamer-0.10 or later installed if you need sound relevant functions)
+fi
+
+
+AC_SUBST(GST_CFLAGS)
+AC_SUBST(GST_LIBS)
+
+PACKAGE_CFLAGS="$G2IPMSG_CFLAGS $DBUSGLIB_CFLAGS $APPLET_CFLAGS $GST_CFLAGS $SSL_CPPFLAGS "
+PACKAGE_LIBS="$G2IPMSG_LIBS $DBUSGLIB_LIBS $APPLET_LIBS $GST_LIBS $SSL_LDFLAGS"
+
+AC_SUBST(PACKAGE_CFLAGS)
+AC_SUBST(PACKAGE_LIBS)
+
+AC_OUTPUT([
+Makefile
+src/Makefile
+po/Makefile.in
+])
+

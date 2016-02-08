@@ -1,0 +1,30 @@
+# List of source files containing translatable strings.
+[encoding: UTF-8]
+g2ipmsg.server.in
+g2ipmsg.schemas.in
+g2ipmsg.desktop.in
+g2ipmsg.xml
+src/copying.h
+src/ipmsg.c
+src/main.c
+src/netcommon.c
+src/interface.c
+src/callbacks.c
+src/support.c
+src/codeset.c
+src/fileattach.c
+src/hostinfo.c
+src/logfile.c
+src/menu.c
+src/message.c
+src/msginfo.c
+src/protocol.c
+src/recvmsg.c
+src/tcp.c
+src/udp.c
+src/userdb.c
+src/fuzai.c
+src/dialog.c
+src/cryptif.c
+src/base64.c
+

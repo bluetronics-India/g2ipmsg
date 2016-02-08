@@ -1,0 +1,1724 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-21 15:09+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../g2ipmsg.server.in.h:1 ../src/applet.c:180 ../src/applet.c:232
+msgid "G2IPMSG Applet"
+msgstr "GNOME2版 IPメッセンジャー アプレット"
+
+#: ../g2ipmsg.server.in.h:2
+msgid "G2IPMSG applet for the GNOME2 panel"
+msgstr "GNOME2 パネル用 IPメッセンジャー アプレット"
+
+#: ../g2ipmsg.server.in.h:3
+msgid "Utility"
+msgstr "ユーティリティ"
+
+#: ../g2ipmsg.schemas.in.h:1
+msgid "Absence message editor height"
+msgstr "不在通知文エディタの高さ"
+
+#: ../g2ipmsg.schemas.in.h:2
+msgid "Absence message editor width"
+msgstr "不在通知文エディタの幅"
+
+#: ../g2ipmsg.schemas.in.h:3
+msgid "Absence messages"
+msgstr "不在文"
+
+#: ../g2ipmsg.schemas.in.h:4
+msgid "Absence titile"
+msgstr "不在メッセージ表題"
+
+#: ../g2ipmsg.schemas.in.h:5 ../src/interface.c:3347
+msgid "Allow host list sending"
+msgstr "ホストリスト送信を許可"
+
+#: ../g2ipmsg.schemas.in.h:6
+msgid "Attachment editor height"
+msgstr "添付ファイルエディタの高さ"
+
+#: ../g2ipmsg.schemas.in.h:7
+msgid "Attachment editor width"
+msgstr "添付ファイルエディタの幅"
+
+#: ../g2ipmsg.schemas.in.h:8
+msgid "Avoid playing sound on message arrive."
+msgstr "サウンドを鳴らさない"
+
+#: ../g2ipmsg.schemas.in.h:9
+msgid "Broadcast addresses"
+msgstr "ブロードキャストアドレス"
+
+#: ../g2ipmsg.schemas.in.h:10
+msgid "Change default absence message editor height"
+msgstr "不在通知文エディタの高さの既定値の変更"
+
+#: ../g2ipmsg.schemas.in.h:11
+msgid "Change default absence message editor width"
+msgstr "不在通知文エディタの幅の既定値の変更"
+
+#: ../g2ipmsg.schemas.in.h:12
+msgid "Change default attachment editor height"
+msgstr "添付ファイルエディタの高さの既定値の変更"
+
+#: ../g2ipmsg.schemas.in.h:13
+msgid "Change default attachment editor width"
+msgstr "添付ファイルエディタの幅の既定値の変更"
+
+#: ../g2ipmsg.schemas.in.h:14
+msgid "Change default message window height"
+msgstr "メッセージウィンドウの高さの既定値の変更"
+
+#: ../g2ipmsg.schemas.in.h:15
+msgid "Change default message window width"
+msgstr "メッセージウィンドウ幅の既定値の変更"
+
+#: ../g2ipmsg.schemas.in.h:16
+msgid "Change default receive window height"
+msgstr "受信ウィンドウの高さの既定値の変更"
+
+#: ../g2ipmsg.schemas.in.h:17
+msgid "Change default receive window width"
+msgstr "受信ウィンドウ幅の既定値の変更"
+
+#: ../g2ipmsg.schemas.in.h:18
+msgid "Check citation as default."
+msgstr "引用チェックをデフォルトにする"
+
+#: ../g2ipmsg.schemas.in.h:19
+msgid "Check read message confirmation as default."
+msgstr "開封確認チェックをデフォルトにする"
+
+#: ../g2ipmsg.schemas.in.h:20
+msgid "Citation Control"
+msgstr "引用制御"
+
+#: ../g2ipmsg.schemas.in.h:21
+msgid "Citation prefix"
+msgstr "引用文字列"
+
+#: ../g2ipmsg.schemas.in.h:22
+msgid "External encoding for message"
+msgstr "メッセージのデフォルトエンコーディング"
+
+#: ../g2ipmsg.schemas.in.h:23
+msgid "External message encoding to exchange messages via the network."
+msgstr "ネットワーク上でメッセージを交換する際のデフォルトメッセージエンコーディング"
+
+#: ../g2ipmsg.schemas.in.h:22
+msgid "Default priority"
+msgstr "デフォルトの優先度"
+
+#: ../g2ipmsg.schemas.in.h:23
+msgid "Default priority(Separated by '@')"
+msgstr "デフォルトの優先度('@'で区切って指定)"
+
+#: ../g2ipmsg.schemas.in.h:24
+msgid "Enable IP V6 mode"
+msgstr "IP V6モードの有効化"
+
+#: ../g2ipmsg.schemas.in.h:25
+msgid "Enable IP address logging."
+msgstr "IPアドレスをログに記録する"
+
+#: ../g2ipmsg.schemas.in.h:26
+msgid "Enable dialup mode"
+msgstr "ダイアルアップモードの有効化"
+
+#: ../g2ipmsg.schemas.in.h:27 ../src/interface.c:3352
+msgid "Enable getting host list facility"
+msgstr "更新時にホストリストを取得する"
+
+#: ../g2ipmsg.schemas.in.h:28 ../src/interface.c:3507
+msgid "Enable lock for enclosed messages"
+msgstr "封書に錠を設定する."
+
+#: ../g2ipmsg.schemas.in.h:29
+msgid "Enable logging"
+msgstr "ログを記録する"
+
+#: ../g2ipmsg.schemas.in.h:30
+msgid "Enable logging on log-file."
+msgstr "ログファイルにログを記録する"
+
+#: ../g2ipmsg.schemas.in.h:31
+msgid "Enclose messages as default."
+msgstr "封書をデフォルトにする"
+
+#: ../g2ipmsg.schemas.in.h:32
+msgid "Encryption password for lock. This is encoded with pbkdf2."
+msgstr "錠付き封書を開封するパスワード.これは, pbkdf2でエンコードされています."
+
+#: ../g2ipmsg.schemas.in.h:33
+msgid ""
+"Encryption password for public/private key storage. This is encoded with "
+"pbkdf2."
+msgstr "公開鍵/秘密鍵を暗号化するパスワード.これは, pbkdf2でエンコードされています."
+
+#: ../g2ipmsg.schemas.in.h:34
+msgid "Group Name"
+msgstr "グループ名"
+
+#: ../g2ipmsg.schemas.in.h:35
+msgid "Group name which you belong to."
+msgstr "貴方が所属しているグループ"
+
+#: ../g2ipmsg.schemas.in.h:36
+msgid "Group sort with descending order."
+msgstr "グループによる逆順ソート"
+
+#: ../g2ipmsg.schemas.in.h:37
+msgid "Header order"
+msgstr "ヘッダ順序"
+
+#: ../g2ipmsg.schemas.in.h:38
+msgid "Header visual"
+msgstr "ヘッダ表示"
+
+#: ../g2ipmsg.schemas.in.h:39
+msgid "Header visual state"
+msgstr "ヘッダ表示の状態"
+
+#: ../g2ipmsg.schemas.in.h:40
+msgid "IP address logging"
+msgstr "IPアドレスをログに記録する"
+
+#: ../g2ipmsg.schemas.in.h:41
+msgid "Iconify normal dialogs when they are shown at first time."
+msgstr "送信/開封確認をアイコン表示"
+
+#: ../g2ipmsg.schemas.in.h:42
+msgid "Inconify dialogs"
+msgstr "送信/開封確認をアイコン表示"
+
+#: ../g2ipmsg.schemas.in.h:43
+msgid "Internal header order representation."
+msgstr "ヘッダ表示順序の内部表現."
+
+#: ../g2ipmsg.schemas.in.h:44
+msgid "Internal representation of sub sorting id."
+msgstr "サブソートIDの内部表現"
+
+#: ../g2ipmsg.schemas.in.h:45
+msgid "Logging user's logon name."
+msgstr "ログオン名をログに記録する"
+
+#: ../g2ipmsg.schemas.in.h:46
+msgid "Nick name"
+msgstr "ニックネーム"
+
+#: ../g2ipmsg.schemas.in.h:47
+msgid "Nick name which is displayed on ipmsg window."
+msgstr "ウィンドウに表示されるニックネーム"
+
+#: ../g2ipmsg.schemas.in.h:48 ../src/interface.c:705
+msgid ""
+"Please check here if you want to log the content of the message after the "
+"message is opened when the message is locked."
+msgstr "施錠されたメッセージをログに記録するときは, 開封後に記録するようにしたい場合は, ここをチェックしてください."
+
+#: ../g2ipmsg.schemas.in.h:49 ../src/interface.c:3496
+msgid ""
+"Please check here if you want to store public/private keys with encryption ."
+msgstr "公開鍵と秘密鍵を暗号化して保存する場合はここをチェックしてください."
+
+#: ../g2ipmsg.schemas.in.h:50 ../src/interface.c:3510
+msgid ""
+"Please check here if you want to use the lock feature(Sent messages can be "
+"opened by receiver's password.)"
+msgstr "封書に錠を設定する(受信メッセージの開封時に受信者が設定したパスワードを問い合わせる)場合は, ここをチェックしてください."
+
+#: ../g2ipmsg.schemas.in.h:51
+msgid ""
+"Please set here if you want to use g2ipmsg in the System Tray, This need the "
+"system tray which perform with freedesktop.org compliant System Tray Protocol"
+"(see:http://www.freedesktop.org/wiki/Standards/systemtray-spec. This require "
+"gtk-2.10 or later)."
+msgstr "g2ipmsgをシステムトレイに常駐させる場合は, ここをセットしてください. これには, freedesktop.orgのシステムトレイプロトコルに準拠したシステムトレイが必要です(http://www.freedesktop.org/wiki/Standards/systemtray-spec.参照.これには, gtk-2.10以上が必要です.)."
+
+#: ../g2ipmsg.schemas.in.h:52
+msgid "Popup message windows."
+msgstr "受信ウィンドウをポップアップする"
+
+#: ../g2ipmsg.schemas.in.h:53
+msgid "Port number"
+msgstr "ポート番号"
+
+#: ../g2ipmsg.schemas.in.h:54
+msgid "Secret message"
+msgstr "封書"
+
+#: ../g2ipmsg.schemas.in.h:55
+msgid "Select cipher according to speed."
+msgstr "速度優先で暗号化アルゴリズムを選択する."
+
+#: ../g2ipmsg.schemas.in.h:56
+msgid "Select ciphers to encrypt messages."
+msgstr "暗号化に使用する暗号方式を選択してください."
+
+#: ../g2ipmsg.schemas.in.h:57
+msgid "Select ciphers."
+msgstr "暗号化に使用する暗号方式を選択してください."
+
+#: ../g2ipmsg.schemas.in.h:58
+msgid "Set Broadcast addresses."
+msgstr "ブロードキャストアドレスを設定"
+
+#: ../g2ipmsg.schemas.in.h:59
+msgid "Set here if you want to sort user list with group."
+msgstr "グループ名によるソートを行う場合はここをセットしてください."
+
+#: ../g2ipmsg.schemas.in.h:60
+msgid "Set here to sort user list with descending ordered group name."
+msgstr "グループ名によるソートを逆順で行う場合はここをセットしてください."
+
+#: ../g2ipmsg.schemas.in.h:61
+msgid "Set here to sort user list with descending ordered sub sort key."
+msgstr "サブソートキーによるソートを逆順で行う場合はここをセットしてください."
+
+#: ../g2ipmsg.schemas.in.h:62
+msgid "Set log file name."
+msgstr "ログを記録するファイル名"
+
+#: ../g2ipmsg.schemas.in.h:63
+msgid "Set on this if you want send messages with seal as a default."
+msgstr "封書をデフォルトにする場合はここをセットしてください."
+
+#: ../g2ipmsg.schemas.in.h:64
+msgid "Set this option if use g2ipmsg on IP V6 network"
+msgstr "g2ipmsgをIP V6 ネットワーク上で使用する場合はここを有効にしてください."
+
+#: ../g2ipmsg.schemas.in.h:65
+msgid "Set this option to allow host list sending"
+msgstr "ホストリスト送信処理を有効にする場合はここを有効にしてください."
+
+#: ../g2ipmsg.schemas.in.h:66
+msgid "Set this option to enable dialup mode."
+msgstr "ダイアルアップ環境で使用する場合は, このオプションを有効にしてください."
+
+#: ../g2ipmsg.schemas.in.h:67
+msgid "Set this option to enable getting host list facility"
+msgstr "ホストリスト取得処理を有効にする場合はここを有効にしてください."
+
+#: ../g2ipmsg.schemas.in.h:68
+msgid ""
+"Set this option to select ciphers according to encoding/decoding speed. If "
+"you use low speed machine, please set this option."
+msgstr "暗号化アルゴリズムを暗号化/復号化の速度に基づいて選択する場合は, このオプションを有効にします. 遅いマシンを使用している場合は, このオプションをセットしてください."
+
+#: ../g2ipmsg.schemas.in.h:69
+msgid "Sort user list with group"
+msgstr "グループ名でソート"
+
+#: ../g2ipmsg.schemas.in.h:70
+msgid "Sound setting"
+msgstr "音声の設定"
+
+#: ../g2ipmsg.schemas.in.h:71 ../src/interface.c:3493
+msgid "Store encrypted public/private key pairs"
+msgstr "公開鍵/秘密鍵を暗号化して保存する."
+
+#: ../g2ipmsg.schemas.in.h:72
+msgid "String which indicate citation."
+msgstr "引用を示す文字列"
+
+#: ../g2ipmsg.schemas.in.h:73
+msgid "Sub sort with descending order"
+msgstr "サブソートキーによるソートを逆順で行う"
+
+#: ../g2ipmsg.schemas.in.h:74
+msgid "Sub sorting id"
+msgstr "サブソートキー"
+
+#: ../g2ipmsg.schemas.in.h:75
+msgid "The port number which g2ipmsg uses."
+msgstr "g2ipmsgで使用するポート番号"
+
+#: ../g2ipmsg.schemas.in.h:76
+msgid "Use SysTray"
+msgstr "システムトレイに常駐する"
+
+#: ../g2ipmsg.schemas.in.h:77
+msgid "[ABSENT,EATING,OUT,MEETING,VISITOR,HOME,EDO,SHUKKE]"
+msgstr "[不在,食事中,外出中,会議中,来客中,帰宅,江戸,出家]"
+
+#: ../g2ipmsg.schemas.in.h:78
+msgid ""
+"[I am absent now.,I have been gone somewhere to eat.,I am out now.,I attend "
+"meeting now.,A visitor comes here.,I have come home.,Edo,Shukke.]"
+msgstr "[不在中です.,食事中です.,外出中です.,会議中です. "
+",接客中です.,帰宅しました.,江戸所払いを申しつける,人生に疲れました.探さないでください]"
+
+#: ../g2ipmsg.schemas.in.h:79
+msgid "enable debug output"
+msgstr "デバッグ出力を有効にする"
+
+#: ../g2ipmsg.schemas.in.h:80
+msgid "enclose"
+msgstr "封書"
+
+#: ../g2ipmsg.schemas.in.h:81
+msgid "encryption password for lock"
+msgstr "施錠に使用するパスワード"
+
+#: ../g2ipmsg.schemas.in.h:82
+msgid "encryption password for public/private key storage"
+msgstr "公開鍵/秘密鍵を暗号化して保存するために使用するパスワード"
+
+#: ../g2ipmsg.schemas.in.h:83 ../src/interface.c:656
+msgid "log file"
+msgstr "ログファイル"
+
+#: ../g2ipmsg.schemas.in.h:84
+msgid "logging locked message after openning it"
+msgstr "錠付きのメッセージ"
+
+#: ../g2ipmsg.schemas.in.h:85
+msgid "logon-name logging"
+msgstr "ログオン名の記録"
+
+#: ../g2ipmsg.schemas.in.h:86
+msgid "message window height"
+msgstr "メッセージウィンドウ高"
+
+#: ../g2ipmsg.schemas.in.h:87
+msgid "message window width"
+msgstr "メッセージウィンドウ幅"
+
+#: ../g2ipmsg.schemas.in.h:88
+msgid "popup messages"
+msgstr "ポップアップ受信"
+
+#: ../g2ipmsg.schemas.in.h:89
+msgid "read message confirmation"
+msgstr "開封確認"
+
+#: ../g2ipmsg.schemas.in.h:90
+msgid "receive window height"
+msgstr "受信ウィンドウ高"
+
+#: ../g2ipmsg.schemas.in.h:91
+msgid "receive window width"
+msgstr "受信ウィンドウ幅"
+
+#: ../g2ipmsg.schemas.in.h:92
+msgid "set Absense titles"
+msgstr "不在文を設定してください"
+
+#: ../g2ipmsg.desktop.in.h:1
+msgid "GNOME2 IP Messenger"
+msgstr "GNOME2 IPメッセンジャー"
+
+#: ../g2ipmsg.desktop.in.h:2
+msgid "IP Messenger for the GNOME2"
+msgstr "GNOME2 版 IPメッセンジャー"
+
+#: ../g2ipmsg.xml.h:1
+msgid "A_bsence mode"
+msgstr "不在モード"
+
+#: ../g2ipmsg.xml.h:2
+msgid "A_ttend"
+msgstr "在席"
+
+#: ../g2ipmsg.xml.h:3
+msgid "_About"
+msgstr "情報"
+
+#: ../g2ipmsg.xml.h:4
+msgid "_Down Load Monitor"
+msgstr "ダウンロードモニタ"
+
+#: ../g2ipmsg.xml.h:5
+msgid "_Foreground all message windows"
+msgstr "全受信ウィンドウを前面に"
+
+#: ../g2ipmsg.xml.h:6 ../src/menu.c:381
+msgid "_New Message"
+msgstr "新規メッセージ作成"
+
+#: ../g2ipmsg.xml.h:7
+msgid "_Preferences"
+msgstr "設定"
+
+#: ../g2ipmsg.xml.h:10
+msgid "_security configuration"
+msgstr "セキュリティ設定"
+
+#: ../g2ipmsg.xml.h:8
+msgid "_Remove opend windows"
+msgstr "開封済みウィンドウを全消去"
+
+#: ../g2ipmsg.xml.h:9
+msgid "_Show Log"
+msgstr "ログ参照"
+
+#: ../src/applet.c:180
+msgid "users:"
+msgstr "ユーザ数:"
+
+#: ../src/base64.c:156
+msgid "Invalid char"
+msgstr "不正な文字を検出しました"
+
+#: ../src/callbacks.c:211
+#, c-format
+msgid "Can not send message to %s pktno=%d"
+msgstr "%s にメッセージを送信できませんでした (パケット番号 = %d)"
+
+#: ../src/callbacks.c:375
+msgid "Broad cast addresses"
+msgstr "ブロードキャストアドレス"
+
+#: ../src/callbacks.c:498 ../src/interface.c:1283
+msgid "LogFile"
+msgstr "ログファイル"
+
+#: ../src/callbacks.c:941 ../src/interface.c:1996
+msgid "FilePath"
+msgstr "ファイルパス"
+
+#: ../src/callbacks.c:961 ../src/downloads.c:662 ../src/interface.c:2549
+msgid "FileSize"
+msgstr "ファイルサイズ"
+
+#: ../src/callbacks.c:981 ../src/downloads.c:602
+msgid "FileType"
+msgstr "ファイル種別"
+
+#: ../src/callbacks.c:1929 ../src/callbacks.c:2103 ../src/callbacks.c:2129
+#: ../src/callbacks.c:2244
+#, c-format
+msgid "Can not handle drag data %s (%d)"
+msgstr "ドラッグデータを処理できませんでした %s (%d)"
+
+#: ../src/callbacks.c:2537
+msgid "Can not open URL"
+msgstr "URLを開けませんでした"
+
+#: ../src/callbacks.c:2539
+msgid "Please check your gnome configuration(url-handler setting)"
+msgstr "GNOMEの設定(url-handlerの設定)を確認してください"
+
+#: ../src/callbacks.c:2896 ../src/interface.c:3123
+msgid "AttachmentFile"
+msgstr "添付ファイル"
+
+#: ../src/callbacks.c:3184
+#, c-format
+msgid "Can not require %s  to %s"
+msgstr "%s を %sに要求することができませんでした."
+
+#: ../src/copying.h:29 ../src/interface.c:1338 ../src/menu.c:479
+msgid "Takeharu KATO"
+msgstr "加藤 丈治"
+
+#: ../src/copying.h:30
+msgid ""
+"Takeharu KATO\n"
+"ZC Miao\n"
+msgstr "加藤 丈治\n"
+"ZC Miao\n"
+
+#: ../src/cryptif.c:686
+msgid "Can not decode message"
+msgstr ""
+
+#: ../src/cryptif.c:686
+msgid "peer"
+msgstr "送信元"
+
+#.
+#: ../src/dialog.c:112 ../src/dialog.c:115 ../src/dialog.c:122
+#: ../src/dialog.c:408 ../src/dialog.c:448 ../src/dialog.c:467
+#: ../src/dialog.c:480 ../src/downloads.c:966 ../src/g2ipmsg.h:129
+#: ../src/hostinfo.c:772 ../src/hostinfo.c:859 ../src/recvmsg.c:311
+#: ../src/uicommon.c:384 ../src/userdb.h:34
+msgid "UnKnown"
+msgstr "不明"
+
+#: ../src/dialog.c:296
+msgid "Version Information"
+msgstr "バージョン情報"
+
+#: ../src/dialog.c:299
+msgid "Absence Information"
+msgstr "不在文情報"
+
+#: ../src/dialog.c:313 ../src/protocol.c:1855 ../src/recvmsg.c:301
+#: ../src/userdb.c:254 ../src/userdb.c:259 ../src/userdb.c:265
+#: ../src/userdb.c:271 ../src/userdb.c:277 ../src/userdb.c:690
+#, c-format
+msgid "Can not convert message from %s into ineternal representation"
+msgstr "%s から受信したメッセージを内部形式に変換できませんでした."
+
+#. --- Column #4 ---
+#: ../src/dialog.c:343 ../src/interface.c:2844 ../src/interface.c:2954
+#: ../src/uicommon.c:307
+msgid "IP Address"
+msgstr "IP アドレス"
+
+#: ../src/dialog.c:345 ../src/dialog.c:385
+msgid "Capability"
+msgstr "能力"
+
+#: ../src/dialog.c:353 ../src/dialog.c:356
+msgid "Dial up"
+msgstr "ダイアルアップ"
+
+#: ../src/dialog.c:353 ../src/dialog.c:362 ../src/dialog.c:371
+#: ../src/dialog.c:384
+msgid "YES"
+msgstr "はい"
+
+#: ../src/dialog.c:356 ../src/dialog.c:365 ../src/dialog.c:374
+#: ../src/dialog.c:474
+msgid "NO"
+msgstr "いいえ"
+
+#: ../src/dialog.c:362 ../src/dialog.c:365
+msgid "UTF-8"
+msgstr "UTF-8"
+
+#: ../src/dialog.c:371 ../src/dialog.c:374
+msgid "File Attach"
+msgstr "ファイル添付"
+
+#: ../src/dialog.c:384 ../src/dialog.c:473
+msgid "Encryption Capability"
+msgstr "暗号化能力"
+
+#: ../src/dialog.c:395
+msgid "Public key encryption"
+msgstr "公開鍵暗号"
+
+#: ../src/dialog.c:399 ../src/interface.c:3424
+msgid "RSA 512 bits"
+msgstr "RSA 512 ビット"
+
+#: ../src/dialog.c:402 ../src/interface.c:3431
+msgid "RSA 1024 bits"
+msgstr "RSA 1024 ビット"
+
+#: ../src/dialog.c:405 ../src/interface.c:3438
+msgid "RSA 2048 bits"
+msgstr "RSA 2048 ビット"
+
+#: ../src/dialog.c:417
+msgid "Symmetric key encryption"
+msgstr "対称鍵暗号"
+
+#: ../src/dialog.c:422 ../src/interface.c:3375
+msgid "RC2 40 bits"
+msgstr "RC2 40 ビット"
+
+#: ../src/dialog.c:425 ../src/interface.c:3382
+msgid "RC2 128 bits"
+msgstr "RC2 128 ビット"
+
+#: ../src/dialog.c:428 ../src/interface.c:3389
+msgid "RC2 256 bits"
+msgstr "RC2 256 ビット"
+
+#: ../src/dialog.c:431 ../src/interface.c:3396
+msgid "Blowfish 128 bits"
+msgstr "Blowfish 128 ビット"
+
+#: ../src/dialog.c:434 ../src/interface.c:3403
+msgid "Blowfish 256 bits"
+msgstr "Blowfish 256 ビット"
+
+#: ../src/dialog.c:437 ../src/interface.c:3445
+msgid "AES 128 bits"
+msgstr "AES 128 ビット"
+
+#: ../src/dialog.c:440 ../src/interface.c:3452
+msgid "AES 192 bits"
+msgstr "AES 192 ビット"
+
+#: ../src/dialog.c:443 ../src/interface.c:3459
+msgid "AES 256 bits"
+msgstr "AES 256 ビット"
+
+#: ../src/dialog.c:456
+msgid "Signature"
+msgstr "署名"
+
+#: ../src/dialog.c:461
+msgid "MD5"
+msgstr "MD5 署名"
+
+#: ../src/dialog.c:464
+msgid "SHA1"
+msgstr "SHA1 署名"
+
+#: ../src/dialog.c:657
+msgid "Password for public/private keys"
+msgstr "公開鍵/秘密鍵を暗号化するパスワード."
+
+#: ../src/dialog.c:661
+msgid "Password message for lock."
+msgstr "錠付き封書を開封するパスワード."
+
+#: ../src/downloads.c:582
+msgid "FileID"
+msgstr "ファイルID"
+
+#: ../src/downloads.c:622 ../src/interface.c:2545 ../src/interface.c:3748
+msgid "FileName"
+msgstr "ファイル名"
+
+#: ../src/downloads.c:642
+msgid "Recv Size"
+msgstr "受信サイズ"
+
+#: ../src/downloads.c:682
+msgid "Progress"
+msgstr "進捗"
+
+#: ../src/downloads.c:809 ../src/interface.c:2723
+msgid "Directory"
+msgstr "ディレクトリ"
+
+#: ../src/downloads.c:874
+msgid "Downloaded File"
+msgstr "ダウンロードファイル名"
+
+#: ../src/downloads.c:878
+msgid "Downloaded Size"
+msgstr "ファイルサイズ"
+
+#: ../src/downloads.c:894 ../src/downloads.c:897
+msgid "Helper Application"
+msgstr "関連付けられているアプリケーション"
+
+#: ../src/downloads.c:897 ../src/hostinfo.c:173 ../src/hostinfo.c:281
+msgid "Undefined"
+msgstr "未定義"
+
+#: ../src/fuzai.c:98
+msgid "title"
+msgstr "不在通知表題"
+
+#: ../src/hostinfo.c:438
+msgid "I am here."
+msgstr "私はここにいる."
+
+#: ../src/hostinfo.c:788
+msgid "Default Group"
+msgstr "デフォルトグループ"
+
+#: ../src/hostinfo.c:843
+msgid "Default Nick Name"
+msgstr "デフォルトニックネーム"
+
+#: ../src/interface.c:36
+msgid "Attachment"
+msgstr "添付"
+
+#: ../src/interface.c:50 ../src/interface.c:3047
+msgid "Set priority as 1"
+msgstr "表示優先度1に設定"
+
+#: ../src/interface.c:57 ../src/interface.c:3054
+msgid "Set priority as 2"
+msgstr "表示優先度2に設定"
+
+#: ../src/interface.c:64 ../src/interface.c:3061
+msgid "Set priority as 3"
+msgstr "表示優先度3に設定"
+
+#: ../src/interface.c:71 ../src/interface.c:3068
+msgid "Set priority as 4"
+msgstr "表示優先度4に設定"
+
+#: ../src/interface.c:78 ../src/interface.c:3075
+msgid "Set them as default"
+msgstr "デフォルト表示に移動"
+
+#: ../src/interface.c:85 ../src/interface.c:3082
+msgid "Set them invisible item"
+msgstr "非表示に移動"
+
+#: ../src/interface.c:93 ../src/interface.c:3090
+msgid "Show invisible items"
+msgstr "非表示を表示"
+
+#: ../src/interface.c:100 ../src/interface.c:3097
+msgid "Set all as default"
+msgstr "全員をデフォルト表示に戻す"
+
+#: ../src/interface.c:115 ../src/interface.c:3109
+msgid "Sort filter"
+msgstr "ソートフィルタ"
+
+#: ../src/interface.c:116
+msgid "Set priority of entries"
+msgstr "グループ選択"
+
+#: ../src/interface.c:122 ../src/interface.c:3138
+msgid "User list view config"
+msgstr "詳細表示設定"
+
+#: ../src/interface.c:123
+msgid "Set user list configurations."
+msgstr "詳細表示設定を行います"
+
+#: ../src/interface.c:129 ../src/interface.c:3131
+msgid "Save list headers state"
+msgstr "リストヘッダ保存"
+
+#: ../src/interface.c:130
+msgid "Save current setting about user list."
+msgstr "ユーザリストの現在の設定値を確定します."
+
+#: ../src/interface.c:137
+msgid "security configuration"
+msgstr "セキュリティ設定"
+
+#: ../src/interface.c:138
+msgid "Set security relevant configuration"
+msgstr "セキュリティ関連の設定を行います"
+
+#: ../src/interface.c:149
+msgid "Update"
+msgstr "更新"
+
+#: ../src/interface.c:156
+msgid "get version"
+msgstr "バージョン情報取得"
+
+#: ../src/interface.c:163
+msgid "get absence info"
+msgstr "不在文取得"
+
+#: ../src/interface.c:217 ../src/interface.c:946
+msgid "g2ipmsg"
+msgstr "GNOME2版IPメッセンジャー"
+
+#: ../src/interface.c:255
+msgid "Please select receivers or drop attachment files."
+msgstr "受信者を選択, または添付ファイルをドロップしてください."
+
+#: ../src/interface.c:276
+msgid "current users"
+msgstr "現在のユーザ数"
+
+#: ../src/interface.c:280
+msgid "<b>Users</b>"
+msgstr "<b>ユーザ数</b>"
+
+#: ../src/interface.c:288
+msgid "Please push this button to update the user list."
+msgstr "このボタンを押してユーザ一覧を更新してください."
+
+#: ../src/interface.c:300
+msgid "Please edit your message or drop attachment files."
+msgstr "受信者を選択, または添付ファイルをドロップしてください."
+
+#: ../src/interface.c:311 ../src/interface.c:1545 ../src/interface.c:2095
+#: ../src/interface.c:2447 ../src/interface.c:2570
+msgid "Please push this button to close this window."
+msgstr "このボタンを押すと, ウィンドウが閉じられます."
+
+#: ../src/interface.c:313
+msgid "SEND"
+msgstr "送信"
+
+#: ../src/interface.c:317
+msgid "Please push this button to send the message."
+msgstr "このボタンを押してメッセージを送信してください."
+
+#: ../src/interface.c:323
+msgid "enclose message"
+msgstr "封書"
+
+#: ../src/interface.c:326
+msgid "Check here to make this message sealed."
+msgstr "封書で送信する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:328
+msgid "lock"
+msgstr "錠"
+
+#: ../src/interface.c:331
+msgid "Check here to lock this message(need to enclose the message)."
+msgstr "ここをチェックすると本メッセージに施錠します(封書で送信する必要があります)."
+
+#: ../src/interface.c:498
+msgid "configuration"
+msgstr "設定"
+
+#: ../src/interface.c:528
+msgid "Enter your nick name."
+msgstr "ユーザ名(愛称)を入力してください."
+
+#: ../src/interface.c:531
+msgid "<b>User Name</b>"
+msgstr "<b>ユーザ名</b>"
+
+#: ../src/interface.c:553
+msgid "Add"
+msgstr "追加"
+
+#: ../src/interface.c:556
+msgid "Please push here to add your group name."
+msgstr "ここを押すと, 入力したグループ名が追加されます."
+
+#: ../src/interface.c:558
+msgid "<b>Group Name</b>"
+msgstr "<b>グループ名</b>"
+
+#: ../src/interface.c:580
+msgid "enable open check"
+msgstr "開封確認を有効にする"
+
+#: ../src/interface.c:583
+msgid "Please check here to receive read notification from receiver."
+msgstr "開封確認を受信する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:585
+msgid "Non-popup receive"
+msgstr "ポップアップ受信を抑制する"
+
+#: ../src/interface.c:588
+msgid "Refrain automatic popuped receive window creation."
+msgstr "メッセージ受信時の受信ウィンドウのポップアップを行わないように設定する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:590
+msgid "No sound"
+msgstr "サウンドを鳴らさない"
+
+#: ../src/interface.c:593
+msgid "Please check here to refrain from playing sounds."
+msgstr "起動・受信時にサウンドの再生を行わないように設定する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:595
+msgid "check enclose message as default"
+msgstr "封書チェックをデフォルトにする"
+
+#: ../src/interface.c:598
+msgid "Please check here if you want to send sealed messages as default."
+msgstr "封書送信をデフォルトにする場合は, ここをチェックしてください."
+
+#: ../src/interface.c:600
+msgid "check citation as default"
+msgstr "引用チェックをデフォルトにする"
+
+#: ../src/interface.c:603
+msgid ""
+"Please check here if you want to edit reply message with citation of "
+"original message."
+msgstr "デフォルトで返信時に元のメッセージを引用するように設定する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:605
+msgid "enable IP V6 only mode (Need restart)"
+msgstr "IP V6 専用モードを有効にする(要再起動)"
+
+#: ../src/interface.c:608
+msgid "Please check here to use this software on the IP V6 environment."
+msgstr "IP V6環境でこのソフトウエアを使用する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:610
+msgid "enable dial up connection mode"
+msgstr "ダイアルアップ接続モードを有効にする"
+
+#: ../src/interface.c:613
+msgid "Please check here to use this software on the dial up environment."
+msgstr "ダイアルアップ環境でこのソフトウエアを使用する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:615
+msgid "iconfy read confirmation dialog"
+msgstr "送信/開封確認をアイコン表示"
+
+#: ../src/interface.c:617
+msgid "Please check here to iconify read confirmation dialog window."
+msgstr "送信/開封確認ダイアログをアイコン化する場合は,  ここをチェックしてください."
+
+#: ../src/interface.c:623
+msgid "External representation of IPMSG character code"
+msgstr "IPMSGの外部文字コード形式"
+
+#: ../src/interface.c:619
+msgid "<b>Options</b>"
+msgstr "<b>オプション</b>"
+
+#: ../src/interface.c:642
+msgid "Please push this button to choose the log-file."
+msgstr "ログファイルを選択する場合は, このボタンを押してください."
+
+#: ../src/interface.c:665
+msgid ""
+"This entry show log-file path, please edit here to specify your log-file "
+"path."
+msgstr "このエントリはログファイルのパスを表示しています.ログファイルを指定する場合は, ここを編集してください."
+
+#: ../src/interface.c:668
+msgid "enable logging"
+msgstr "ログを有効にする"
+
+#: ../src/interface.c:673
+msgid "Please check here to enable logging facility."
+msgstr "ログ機能を有効にする場合は, ここをチェックしてください."
+
+#: ../src/interface.c:690
+msgid "logging logon name"
+msgstr "ログオン名を記録する"
+
+#: ../src/interface.c:694
+msgid "Please check here to log user's logon name into the log-file."
+msgstr "ログオン名をログに記録する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:696
+msgid "logging IP Addresses"
+msgstr "IPアドレスを記録する"
+
+#: ../src/interface.c:700
+msgid "Please check here to log user's IP addresses into the log-file."
+msgstr "IPアドレスをログに記録する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:702
+msgid "logging locked messages after opening the message."
+msgstr "錠前付き受信ログは解除後に記録."
+
+#: ../src/interface.c:707
+msgid "<b>Logging Option</b>"
+msgstr "<b>ロギングオプション</b>"
+
+#: ../src/interface.c:712
+msgid "<b>Logfile</b>"
+msgstr "<b>ログファイル</b>"
+
+#: ../src/interface.c:733
+msgid "Please input broad cast address."
+msgstr "ブロードキャストアドレスを入力してください."
+
+#: ../src/interface.c:741 ../src/interface.c:1836
+msgid ">>"
+msgstr ">>"
+
+#: ../src/interface.c:745
+msgid ""
+"Please push this button to add the broad cast address to broad cast address "
+"list."
+msgstr "ブロードキャストアドレスをブロードキャストアドレスリストに追加する場合は, このボタンを押してください."
+
+#: ../src/interface.c:747 ../src/interface.c:1842
+msgid "<<"
+msgstr "<<"
+
+#: ../src/interface.c:751
+msgid ""
+"Please push this button to remove the broad cast address from broad cast "
+"address list."
+msgstr "ブロードキャストアドレスをブロードキャストアドレスリストから取り除く場合は, このボタンを押してください."
+
+#: ../src/interface.c:764
+msgid ""
+"This list shows broad cast addresses for entry/absence status notification."
+msgstr "このリストは, 参加/不在通知時に使用するブロードキャストアドレスの一覧を表しています."
+
+#: ../src/interface.c:766
+msgid "<b>Broadcast address setting</b>"
+msgstr "<b>ブロードキャストアドレスの設定</b>"
+
+#: ../src/interface.c:778
+msgid "Please push this button to apply this configuration."
+msgstr "設定を適用する場合は, このボタンを押してください."
+
+#: ../src/interface.c:783
+msgid "Please push this button to discard this configuration"
+msgstr "設定を破棄する場合は, このボタンを押してください."
+
+#: ../src/interface.c:1021
+msgid "DownLoad"
+msgstr "ダウンロード"
+
+#: ../src/interface.c:1053
+msgid "This entry show where files are stored."
+msgstr "本エントリは, ファイルを保存するディレクトリを示しています."
+
+#: ../src/interface.c:1056
+msgid "Down load directory"
+msgstr "ダウンロード先ディレクトリ"
+
+#: ../src/interface.c:1065
+msgid "Please push this button to choose download directory."
+msgstr "ダウンロード先ディレクトリを選択する場合は, このボタンを押してください."
+
+#: ../src/interface.c:1071
+msgid "Please push this button to start downloads."
+msgstr "このボタンを押してダウンロードを開始します."
+
+#: ../src/interface.c:1077
+msgid "Please push this button to discard download files."
+msgstr "このボタンを押すとダウンロードを中止します."
+
+#: ../src/interface.c:1088
+msgid "Please select files to be saved."
+msgstr "保存するファイルを選択してください"
+
+#: ../src/interface.c:1090
+msgid "down load all at once"
+msgstr "一括ダウンロード"
+
+#: ../src/interface.c:1094
+msgid ""
+"Please check here if you want to download all of selected files at once."
+msgstr "選択した全てのファイルを一度にダウンロードする場合は, ここをチェックしてください."
+
+#: ../src/interface.c:1097
+msgid "<b>DownLoad files</b>"
+msgstr "<b>ダウンロードファイル</b>"
+
+#: ../src/interface.c:1154
+msgid "download dialog"
+msgstr "ダウンロード"
+
+#: ../src/interface.c:1212
+msgid "save down loaded file"
+msgstr "ダウンロードファイルの記録"
+
+#: ../src/interface.c:1337 ../src/systray.c:122
+msgid "G2ipmsg"
+msgstr "GNOME2版IPメッセンジャー"
+
+#: ../src/interface.c:1339
+msgid ""
+"Copyright (c)  2008, Takeharu KATO\n"
+"All rights reserved.\n"
+"\n"
+" Redistribution and use in source and binary forms, with or without\n"
+" modification, are permitted provided that the following conditions\n"
+" are met:\n"
+" 1. Redistributions of source code must retain the above copyright\n"
+"    notice, this list of conditions and the following disclaimer.\n"
+" 2. Redistributions in binary form must reproduce the above copyright\n"
+"    notice, this list of conditions and the following disclaimer in the\n"
+"    documentation and/or other materials provided with the distribution.\n"
+" \n"
+" THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND\n"
+" ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n"
+" IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\n"
+" ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE\n"
+" FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n"
+" DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\n"
+" OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\n"
+" HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\n"
+" LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY\n"
+" OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\n"
+" SUCH DAMAGE."
+msgstr ""
+"Copyright (c)  2008, Takeharu KATO\n"
+"All rights reserved.\n"
+"\n"
+"ソースコード形式かバイナリ形式か、変更するかしないかを問わず、以下の条件を満たす場合に限り、再頒布および使用が許可されます。\n"
+"  * ソースコードを再頒布する場合、上記の著作権表示、本条件一覧、および下記免責条項を含めること。\n"
+"  * バイナリ形式で再頒布する場合、頒布物に付属のドキュメント等の資料に、上記の著作権表示、本条件一覧、および下記免責条項を含めること。\n"
+"本ソフトウェアは、著作権者およびコントリビューターによって「現状のまま」提供されており、明示黙示を問わず、商業的な使用可能性、および特定の目的に対する適合性に関する暗黙の保証も含め、またそれに限定されない、いかなる保証もありません。\n"
+"著作権者もコントリビューターも、事由のいかんを問わず、損害発生の原因いかんを問わず、かつ責任の根拠が契約であるか厳格責任であるか（過失その他の）不法行為であるかを問わず、仮にそのような損害が発生する可能性を知らされていたとしても、本ソフトウェアの使用によって発生した（代替品または代用サービスの調達、使用の喪失、データの喪失、利益の喪失、業務の中断も含め、またそれに限定されない）直接損害、間接損害、偶発的な損害、特別損害、懲罰的損害、または結果損害について、一切責任を負わないものとします。 "
+
+#: ../src/interface.c:1382 ../src/interface.c:1399
+msgid "Read Message"
+msgstr "開封されました"
+
+#: ../src/interface.c:1482
+msgid "Receive message"
+msgstr "受信通知"
+
+#: ../src/interface.c:1517
+msgid "<b>Message from ...</b>"
+msgstr "<b>次の方からメッセージが届きました ...</b>"
+
+#: ../src/interface.c:1550
+msgid "Please push this button to reply."
+msgstr "このボタンを押すと, ウィンドウが閉じられます."
+
+#: ../src/interface.c:1564
+msgid "Reply"
+msgstr "返信"
+
+#: ../src/interface.c:1572
+msgid "Cite"
+msgstr "引用"
+
+#: ../src/interface.c:1575
+msgid "Please check here to cite original message to reply."
+msgstr "元のメッセージを引用する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:1639
+msgid "SendFail"
+msgstr "送信失敗"
+
+#: ../src/interface.c:1656
+msgid "Can not send message"
+msgstr "メッセージの送信に失敗しました"
+
+#: ../src/interface.c:1664
+msgid "Retry?"
+msgstr "再度送信しますか?"
+
+#: ../src/interface.c:1747
+msgid "Edit Attachments"
+msgstr "添付ファイルの選択"
+
+#: ../src/interface.c:1787
+msgid "Please push here to choose an attachment file."
+msgstr "ここを押すと, 添付ファイルを選択できます."
+
+#: ../src/interface.c:1822
+msgid "This entry show the attachment file path."
+msgstr "このエントリは, 添付ファイルのパスを示しています."
+
+#: ../src/interface.c:1825
+msgid "<b>FileChooser</b>"
+msgstr "<b>ファイル選択</b>"
+
+#: ../src/interface.c:1840
+msgid "Please push this button to add the file into attachment file list."
+msgstr "このボタンを押すと, 添付ファイルリストにファイルを追加します."
+
+#: ../src/interface.c:1846
+msgid "Please push this button to remove the file from attachment file list."
+msgstr "添付ファイルリストからファイルを取り除く場合は, このボタンを押してください."
+
+#: ../src/interface.c:1869
+msgid "This list shows attachment files of the message."
+msgstr "このリストは, メッセージに添付される添付ファイルを表しています."
+
+#: ../src/interface.c:1872
+msgid "<b>Attached files</b>"
+msgstr "<b>添付ファイル</b>"
+
+#: ../src/interface.c:1877
+msgid "<b>Attachment Editor</b>"
+msgstr "<b>添付ファイルエディタ</b>"
+
+#: ../src/interface.c:1966
+msgid "Overwrite comfirmation"
+msgstr "上書き確認"
+
+#: ../src/interface.c:1992
+msgid "Following file already exist:"
+msgstr "下記のファイルは既に存在します:"
+
+#: ../src/interface.c:2000
+msgid "Over Write?"
+msgstr "上書きしますか?"
+
+#: ../src/interface.c:2004
+msgid "<b>Over write confirmation</b>"
+msgstr "<b>上書き確認</b>"
+
+#: ../src/interface.c:2060
+msgid "Down load monitor"
+msgstr "ダウンロードモニタ"
+
+#: ../src/interface.c:2083
+msgid "Please push this button to revoke permission to down load the file."
+msgstr "このボタンを押すと, 選択したファイルのダウンロード許可を取り消すことができます."
+
+#: ../src/interface.c:2089
+msgid "Please push this button to update the download file list."
+msgstr "ダウンロードファイル一覧を更新します."
+
+#: ../src/interface.c:2114
+msgid "This list shows download files which you sent."
+msgstr "このリストは, ダウンロード許可済みファイルの一覧を表しています."
+
+#: ../src/interface.c:2116
+msgid "<b>download files</b>"
+msgstr "<b>ダウンロードファイル</b>"
+
+#: ../src/interface.c:2182 ../src/interface.c:2221 ../src/interface.c:3638
+msgid "password"
+msgstr "パスワード"
+
+#: ../src/interface.c:2207
+msgid "current password"
+msgstr "現在のパスワード"
+
+#: ../src/interface.c:2236
+msgid "confirm password"
+msgstr "パスワード(確認)"
+
+#: ../src/interface.c:2331
+msgid "Absence Notification"
+msgstr "不在通知"
+
+#: ../src/interface.c:2363
+msgid "This list shows absence message titiles."
+msgstr "このリストは, 不在通知文の表題を表しています."
+
+#: ../src/interface.c:2367
+msgid "<b>Titles</b>"
+msgstr "<b>不在通知表題</b>"
+
+#: ../src/interface.c:2398
+msgid "Title"
+msgstr "表題"
+
+#: ../src/interface.c:2405
+msgid ""
+"This entry show absence message title, please edit this entry as you like."
+msgstr "このエントリは, 不在文の表題を表しています. このエントリを編集することでお望みの表題に修正してください."
+
+#: ../src/interface.c:2417
+msgid "Please edit this entry as you like to modify the absence message."
+msgstr "ここを編集することで, 不在通知文を作成してください."
+
+#: ../src/interface.c:2419
+msgid "<b>Absence message</b>"
+msgstr "<b>不在通知文</b>"
+
+#: ../src/interface.c:2431
+msgid "Set absent mode"
+msgstr "不在モードに移行"
+
+#: ../src/interface.c:2435
+msgid "Please push this button to apply changes and to enter the absent mode."
+msgstr "このボタンを押すと, 変更を適用後, 不在モードに入ります."
+
+#: ../src/interface.c:2437
+msgid "Apply Only"
+msgstr "適用のみ"
+
+#: ../src/interface.c:2441
+msgid "Push this button to apply changes on this absence message."
+msgstr "このボタンを押すと変更が適用されます(不在モードに入りません)."
+
+#: ../src/interface.c:2518 ../src/interface.c:2715
+msgid "Down load complete"
+msgstr "ダウンロード完了"
+
+#: ../src/interface.c:2553
+msgid "appName"
+msgstr "アプリケーション名"
+
+#: ../src/interface.c:2557
+msgid "<b>Down Load Complete</b>"
+msgstr "<b>ダウンロードが完了しました ...</b>"
+
+#: ../src/interface.c:2576
+msgid ""
+"Please push this button to open the directory which the downloaded file is "
+"stored."
+msgstr "ダウンロードしたファイルを保存したディレクトリを開く場合は, このボタンを押してください."
+
+#: ../src/interface.c:2582
+msgid "Please push this button to handle the downloaded file."
+msgstr "ダウンロードしたファイルをヘルパーアプリケーションを用いて, 処理する場合は, このボタンを押してください."
+
+#: ../src/interface.c:2634
+msgid "Down load failed"
+msgstr "ダウンロード失敗"
+
+#: ../src/interface.c:2651
+msgid "Can not receive the file properly."
+msgstr "ファイルを正常にダウンロードできませんでした."
+
+#: ../src/interface.c:2659
+msgid "Retry this file?"
+msgstr "このファイルを再ダウンロードしますか?"
+
+#: ../src/interface.c:2705
+msgid "down load complete"
+msgstr "ダウンロード完了"
+
+#: ../src/interface.c:2719
+msgid "Do you want to open the directory?"
+msgstr "ダウンロード先ディレクトリを開きますか?"
+
+#: ../src/interface.c:2798
+msgid "View Config"
+msgstr "表示設定"
+
+#. --- Column #2 ---
+#: ../src/interface.c:2832 ../src/uicommon.c:289
+msgid "Group"
+msgstr "グループ名"
+
+#: ../src/interface.c:2838
+msgid "Host Name"
+msgstr "ホスト名"
+
+#: ../src/interface.c:2850
+msgid "Logon Name"
+msgstr "ログオン名"
+
+#. --- Column #6 ---
+#: ../src/interface.c:2856 ../src/uicommon.c:325
+msgid "Priority"
+msgstr "表示優先度"
+
+#: ../src/interface.c:2862
+msgid "Show Grid"
+msgstr "罫線表示"
+
+#: ../src/interface.c:2876
+msgid "You can reorder list header by drag-and-drop the list header."
+msgstr "リストヘッダのドラッグ・アンド・ドロップで, リストヘッダの再配置が可能です."
+
+#: ../src/interface.c:2878
+msgid "<b>user list view relevant options</b>"
+msgstr "<b>ユーザリストビュー関連オプション</b>"
+
+#: ../src/interface.c:2909
+msgid "Sort with group"
+msgstr "グループ名でソート"
+
+#: ../src/interface.c:2913 ../src/interface.c:2962
+msgid "Descending Sort"
+msgstr "降順でソート"
+
+#: ../src/interface.c:2917
+msgid "<b>Sort with group</b>"
+msgstr "<b>グループ名でソート</b>"
+
+#: ../src/interface.c:2937
+msgid "User Name"
+msgstr "ユーザ名"
+
+#: ../src/interface.c:2946
+msgid "Machine Name"
+msgstr "マシン名"
+
+#: ../src/interface.c:2968
+msgid "<b>Sort with following key</b>"
+msgstr "<b>次のキーを使用してソート</b>"
+
+#: ../src/interface.c:2973
+msgid "<b>Sotring Configuration</b>"
+msgstr "<b>ソート設定</b>"
+
+#: ../src/interface.c:3116
+msgid "Group selection"
+msgstr "グループ選択"
+
+#: ../src/interface.c:3199
+msgid "client information"
+msgstr "クライアント情報"
+
+#: ../src/interface.c:3248
+msgid "<b>Client Information</b>"
+msgstr "<b>クライアント情報</b>"
+
+#: ../src/interface.c:3321
+msgid "Host List Control/Security"
+msgstr "ホストリスト制御/セキュリティ"
+
+#: ../src/interface.c:3350
+msgid "Please check here if you want to send your host list to other hosts."
+msgstr "自身のホストリストを他のホストに送付することを許可する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3355
+msgid "Please check here if you want to obtain host lists from other hosts."
+msgstr "他のホストからホストリストを取得する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3357
+msgid "<b>Host list</b>"
+msgstr "<b>ホストリスト</b>"
+
+#: ../src/interface.c:3380
+msgid "Please check here if you want to use RC2 40 bits key for encryption."
+msgstr "RC2 40ビットの暗号を使用してメッセージを暗号化する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3387
+msgid "Please check here if you want to use RC2 128 bits key for encryption."
+msgstr "RC2 128ビットの暗号を使用してメッセージを暗号化する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3394
+msgid "Please check here if you want to use RC2 256 bits key for encryption."
+msgstr "RC2 256ビットの暗号を使用してメッセージを暗号化する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3401
+msgid ""
+"Please check here if you want to use blowfish 128 bits key for encryption."
+msgstr "Blowfish 128ビットの暗号を使用してメッセージを暗号化する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3408
+msgid ""
+"Please check here if you want to use blowfish 256 bits key for encryption."
+msgstr "Blowfish 256ビットの暗号を使用してメッセージを暗号化する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3410
+msgid "MD5 sign"
+msgstr "MD5 署名"
+
+#: ../src/interface.c:3415
+msgid ""
+"Please check here if you want to use MD5 hash function to sign your messages."
+msgstr "MD5ハッシュ関数を使用してメッセージに署名を付す場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3417
+msgid "SHA1 sign"
+msgstr "SHA1 署名"
+
+#: ../src/interface.c:3422
+msgid ""
+"Please check here if you want to use SHA1 hash function to sign your "
+"messages."
+msgstr "SHA1ハッシュ関数を使用してメッセージに署名を付す場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3429
+msgid ""
+"Please check here if you want to use RSA 512 bits key to encrypt the common "
+"key."
+msgstr "RSA 512ビットの鍵を使用して共通鍵を暗号化する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3436
+msgid ""
+"Please check here if you want to use RSA 1024 bits key to encrypt the common "
+"key."
+msgstr "RSA 1024ビットの鍵を使用して共通鍵を暗号化する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3443
+msgid ""
+"Please check here if you want to use RSA 2048 bits key to encrypt the common "
+"key."
+msgstr "RSA 2048ビットの鍵を使用して共通鍵を暗号化する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3450
+msgid "Please check here if you want to use AES 128 bits key for encryption."
+msgstr "AES 128ビットの暗号を使用してメッセージを暗号化する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3457
+msgid "Please check here if you want to use AES 192 bits key for encryption."
+msgstr "AES 192ビットの暗号を使用してメッセージを暗号化する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3464
+msgid "Please check here if you want to use AES 256 bits key for encryption."
+msgstr "AES 256ビットの暗号を使用してメッセージを暗号化する場合は, ここをチェックしてください."
+
+#: ../src/interface.c:3466
+msgid "<b>Cipher selection</b>"
+msgstr "<b>暗号選択</b>"
+
+#: ../src/interface.c:3484
+msgid "Select the encrypt key according to its speed"
+msgstr "暗号化・復号化速度により暗号鍵を選択する."
+
+#: ../src/interface.c:3487
+msgid ""
+"Please check here if you want to select the common key according to its "
+"coding speed.Please note that some clients can not handle arbitary "
+"combinations of keys(i.e. Windows client can handle RSA 1024 bits with "
+"Blowfish 128 bits or RSA 512 bits with RC2 40 bits)."
+msgstr "暗号化・復号化速度が早いものを優先して暗号化鍵を選択します.クライアントによっては任意の暗号鍵の組合せを扱えないこと(例:Windows版クライアント)に注意してください."
+
+#: ../src/interface.c:3498 ../src/interface.c:3512
+msgid "set password"
+msgstr "パスワードを設定"
+
+#: ../src/interface.c:3501
+msgid ""
+"Please push this button to set password for private/public key encryption."
+msgstr "このボタンを押して, 公開鍵/秘密鍵を暗号化するためのパスワードを設定してください."
+
+#: ../src/interface.c:3515
+msgid "Please push this button to set password for unlock messages."
+msgstr "このボタンを押して開錠パスワードを設定してください."
+
+#: ../src/interface.c:3517
+msgid "<b>Security Relevant Options</b>"
+msgstr "<b>セキュリティ関係オプション</b>"
+
+#: ../src/interface.c:3531
+msgid "Please push this button to apply the configuration."
+msgstr "このボタンを押して設定を適用してください."
+
+#: ../src/interface.c:3537
+msgid "Please push this button to discard the configuration."
+msgstr "設定を破棄する場合は, このボタンを押してください."
+
+#: ../src/interface.c:3620
+msgid "Password"
+msgstr "パスワード"
+
+#: ../src/interface.c:3645
+msgid "Please input password here(push OK button to finish.)."
+msgstr "ここにパスワードを入力してください(OKボタンを押下することで入力を終えます.)"
+
+#: ../src/interface.c:3657
+msgid "Please push this button to discard your input."
+msgstr "このボタンを押すと入力を破棄します."
+
+#: ../src/interface.c:3663
+msgid "Please push this button to finish inputing password."
+msgstr "このボタンを押すと入力を終了します."
+
+#: ../src/interface.c:3718
+msgid "error"
+msgstr "エラー"
+
+#: ../src/interface.c:3730
+msgid "g2ipmsg detects an error"
+msgstr "GNOME2 版 IPMSGがエラーを検出しました"
+
+#: ../src/interface.c:3756
+msgid "Function"
+msgstr "関数"
+
+#: ../src/interface.c:3764
+msgid "Line"
+msgstr "行番号"
+
+#: ../src/interface.c:3799
+msgid "<b>Error Information</b>"
+msgstr "<b>エラー情報</b>"
+
+#: ../src/interface.c:3823
+msgid "Descriptions of the error."
+msgstr "このエラーの詳細情報です."
+
+#: ../src/interface.c:3827
+msgid "<b>Error Message</b>"
+msgstr "<b>エラーメッセージ</b>"
+
+#: ../src/interface.c:3840
+msgid "Please push this button to close this dialog."
+msgstr "このダイアログを閉じる場合は, このボタンを押してください"
+
+#: ../src/ipmsg.c:149
+msgid "Can not setup lock file"
+msgstr "ロックファイルの初期化に失敗しました"
+
+#: ../src/ipmsg.c:150
+msgid "errno"
+msgstr "エラー番号"
+
+#: ../src/menu.c:156
+msgid "FileNames"
+msgstr "ファイル名"
+
+#: ../src/menu.c:176
+msgid "Remains"
+msgstr "残数"
+
+#: ../src/menu.c:196
+msgid "Receivers"
+msgstr "受信者"
+
+#: ../src/menu.c:383
+msgid "DownLoadMonitor"
+msgstr "ダウンロードモニタ"
+
+#: ../src/menu.c:385
+msgid "Foreground all message windows"
+msgstr "全受信ウィンドウを前面に"
+
+#: ../src/menu.c:386
+msgid "Remove opend windows"
+msgstr "開封済みウィンドウを全消去"
+
+#: ../src/menu.c:390
+msgid "Show Log"
+msgstr "ログ参照"
+
+#: ../src/menu.c:392
+msgid "Absence"
+msgstr "不在"
+
+#: ../src/menu.c:396
+msgid "Attend"
+msgstr "在席(不在解除)"
+
+#: ../src/msginfo.c:229
+msgid "Can not send"
+msgstr "送信できませんでした"
+
+#: ../src/netcommon.c:45
+msgid "Can not set buffer size"
+msgstr "バッファサイズを設定できませんでした"
+
+#: ../src/netcommon.c:106
+msgid "Can not set broad cast"
+msgstr "ブロードキャストの設定に失敗しました"
+
+#: ../src/netcommon.c:174
+msgid "Can not get addr info"
+msgstr "アドレス情報の獲得に失敗しました"
+
+#: ../src/protocol.c:114 ../src/protocol.c:1452
+msgid "Can not convert common into external representation"
+msgstr "パケットのコマンド間共通部分を外部形式に変換できませんでした"
+
+#: ../src/protocol.c:130
+msgid "Can not convert message into external representation"
+msgstr "パケットのメッセージ部分を外部形式に変換できませんでした"
+
+#: ../src/protocol.c:146
+msgid "Can not convert extension into external representation"
+msgstr "パケットの拡張部分を外部形式に変換できませんでした"
+
+#: ../src/protocol.c:265
+#, c-format
+msgid "Can not register message for:%s reason: %s error code = %d"
+msgstr "%s へ再送するメッセージの記録に失敗しました. 理由: %s エラーコード = %d"
+
+#: ../src/protocol.c:1415
+msgid "No extension  in file attached message.Ignore attachments."
+msgstr "ファイル添付付きメッセージに拡張部がありませんでした.添付ファイルを無視します."
+
+#: ../src/protocol.c:1781 ../src/protocol.c:1800
+msgid "Edition"
+msgstr "版"
+
+#: ../src/protocol.c:1783 ../src/protocol.c:1800
+msgid "Version"
+msgstr "バージョン"
+
+#: ../src/pubcrypt.c:1265
+msgid "Can not load RSA key due to invalid passphrase."
+msgstr "パスフレーズが不正のため, RSA鍵の読み込みに失敗しました"
+
+#: ../src/recvmsg.c:246
+msgid "Can not create download window"
+msgstr "ダウンロードウィンドウの生成に失敗しました"
+
+#: ../src/recvmsg.c:384
+msgid "Remove the seal"
+msgstr "開封"
+
+#: ../src/recvmsg.c:385
+msgid "[Attachment]"
+msgstr "[添付]"
+
+#: ../src/recvmsg.c:386
+msgid "(Locked)"
+msgstr "(施錠)"
+
+#: ../src/support.c:60 ../src/support.c:85
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "ピックスマップが見付かりませんでした : %s"
+
+#. --- Column #1 ---
+#: ../src/uicommon.c:284
+msgid "User"
+msgstr "ユーザ"
+
+#. --- Column #3 ---
+#: ../src/uicommon.c:298
+msgid "Host"
+msgstr "ホスト"
+
+#. --- Column #5 ---
+#: ../src/uicommon.c:316
+msgid "LogOn"
+msgstr "ログオン名"

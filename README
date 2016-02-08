@@ -1,0 +1,104 @@
+		        GNOME2 IPMSG
+
+1. About this software
+
+    IP messsenger is one of popular win-popup style message exchanger in Japan.
+    G2ipmsg is a kind of IP messenger clone for GNOME2 environments.
+
+    This edition support following features:
+
+	1) Basic message send/receive features.
+	2) File attachment(Regular file only)
+	3) Encrypt message handling.
+
+
+2. Compile / Install
+
+ 1)  At first, extract source archive.
+     
+ 2) Configure g2ipmsg source tree to adopt to your environment with following 
+    commnand.
+
+   ./configure --prefix=/usr --sysconfdir=/etc --enable-systray  \
+   --with-ext-charcode=CP932
+
+    You can specify ipmsg character code set on the network with 
+    --with-ext-charcode option(Default:CP932). 
+    e.g.: If you want to use simplified chainese character code set:
+       ./configure --prefix=/usr --sysconfdir=/etc --enable-systray  \
+       --with-ext-charcode=CP936
+
+ 3) Compile g2ipmsg with make(GNU Make may be needed.).
+
+    make
+
+ 4) Install
+
+    To install g2ipmsg into your system with following command.
+
+   make install
+
+   Following commands are installed into your file system on install success.
+
+   /usr/bin/g2ipmsg        ... application edition of g2ipmsg.
+   /usr/bin/g2ipmsg_applet ... GNOME2 applet edition of g2ipmsg.
+
+3. Execution
+
+   To invoke g2ipmsg application, please type following command. 
+
+   /usr/bin/g2ipmsg
+
+      To use applet edition of g2ipmsg, you need register the g2ipmsg_applet
+   to your gnome2 panel with standard gnome2 panel operation.
+   Please refer following URL to know how to register gnome2 applet.
+
+   http://www.gnome.org/
+
+4. file attachment function
+
+     To attach some file on the message, you can drag-and-drop attachment files
+    into the message window from nautilus.
+     When the message window receives attachment files, it open the attachment
+    file editor to composite attachment file information.
+
+     If the attachment file editor is destroyed before the message is sent,
+   g2ipmsg get rid of attachment files(treat as file attachment operation was
+   canceled). If you want to destroy attachment file editor, please destoroy 
+   button on the window decoration.
+
+
+5. Unsupported features
+
+5.1. Directory Transfer Function
+	g2ipmsg's directory transfer function is still buggy.
+
+6. Thanks
+
+    This software uses free sound file which obtained from following address.
+
+    http://www.human-park.net/
+
+
+7. Contact
+
+   Takeharu KATO
+   takeharu1219@ybb.ne.jp
+
+Appendix.A. Ciphers used by g2ipmsg
+  This software uses following cryptographic algorithms and hash functions.
+  These are called via OpenSSL library. If you want to disable them, please
+  invoke configure script with --without-ssl to build g2ipmsg.
+
+  Cryptographic algorithms:
+
+   1) Blowfish 128bit/256bit
+   2) RC2 40bit/128bit/256bit
+   3) Triple DES
+   4) RSA 512bit/1024bit/2048bit
+
+  Hash functions:
+
+   1) HMAC
+   2) MD5
+   3) SHA1 

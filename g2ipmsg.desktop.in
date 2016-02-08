@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Terminal=false
+_Name=GNOME2 IP Messenger
+_Comment=IP Messenger for the GNOME2
+Exec=g2ipmsg
+TryExec=g2ipmsg
+Icon=ipmsg.png
+Type=Application
+Categories=GTK;Application;Utility;

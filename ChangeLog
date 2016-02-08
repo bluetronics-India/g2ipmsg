@@ -1,0 +1,201 @@
+Version 0.9.6
+	Following fixes and improvements are performed:
+
+	1) Add locked seal handling.
+	2) Add encrypted private key file handling facility.
+	3) Add iconizing read notification dialog.
+	4) Add Doxygen support(It generate the document of 
+	   internal structure guide which is written in Japanese
+	   (in progress)).
+	5) Fix encrypted message handling relevant bug.
+	6) Add AES encryption support.
+	7) Fix IPMSG_BR_EXIT mis-handling.
+	8) Add codeset selector at the config window
+	   (Requested by Miao. Thanks)
+	9) Add security configuration window.
+       10) Fix nickname display on user list view.
+       11) Fix png file installation path
+	   (Reported by Mr. Miao. Thanks).
+	
+Version 0.9.5d
+	Following fixes and improvements are performed:
+
+	1) Large file support on Linux.
+	   (Reported and tested by Mr. Wang. Thanks).
+	
+Version 0.9.5
+	Following fixes and improvements are performed:
+
+	1) Fix gnome_program_init relevant configuration
+	   (Reported by Mr. Yoshimura, Thanks)
+	2) Remove minor warnings.
+	3) Fix systray relevant NULL handling.
+	4) Support autoconf 2.60 or later.
+
+Version 0.9.4
+	Following fixes and improvements are performed:
+
+	1) Fix absent message handling.in encryption mode.
+	2) Fix a bug in hostlist recieving with ipmsg exchanger
+	   (Reported by Mr. Kato, Thanks).
+	3) Add workaround for encrypted messages from Chat & Messenger clients
+	   (Reported by Mr. Yoshimura, Thanks).
+	4) Fix compilation bug in the system whcih has not openssl library
+	   (Reported by Mr. Kato. Thanks).
+	5) Change IPMSG_ANSLIST message handing to accept anonymous ANSLIST
+	   packet, it is needed to communicate with ipmsg exchange servers
+	   (Requested by Mr. Kato. Thanks).
+	6) Simplified Chinese .po file is added.
+	   (Supported by ZC Miao. Thanks).
+	7) Add configuration option of ipmsg external character code set.
+	8) Fix memory leak in read confirmation dialog.
+	9) License is changed from GPL to BSD.
+       10) Use asctime_r, localtime_r if they are available.
+	
+Version 0.9.3
+	Following fixes and improvements are performed:
+
+	1) Fix memory leak in host list exchange.
+	2) Fix memory leak in entry packet handling in userdb.
+	3) Fix memory leak in tcp connection handling.
+	4) Fix some problems occur when it is installed as 
+	   new installation by Mr. Matsunaga. Thanks.
+	5) Fix symmetric encryption handing reported from
+	   Mr. Sugita. Thanks.
+	6) Change window wrapping mode on ViewWindow and Message Window.
+	   requested from Mr. Sugita. Thanks.
+	    
+Version 0.9.2
+	Following fixes and improvements are performed:
+
+	1) Fix default entry flags
+	2) Encrypted packet handling has been added.
+
+Version 0.9.1
+
+	Following fixes and improvements are performed:
+
+	1) Change config menu item name(from edit to config). 
+	2) adds user list view config invocation item and 
+	   sorting menu on config menu item.
+	3) Reduce stack usage for FreeBSD 5.X.
+	4) Clean up create_response(directory sending message creator) 
+	   function to avoid glibc snprintf bug on PowerPC.
+	5) Behaviors of directory download window is fixed.
+	6) The macros to replace glib's g_slice relevant functions are
+	   implemented for old environments(Reported by Mr. Aditya. Thanks).
+	7) Minor code clean-ups are performed to reduce warnings.
+	
+Version 0.9
+
+	Following fixes and improvements are performed:
+
+	1) Fix download file id handling.
+	2) Add all at once downloading.
+	3) Change logfile writing policy(Requested from Mr. Sugita. Thanks).
+	4) Systray support, now we can use this both gnome2 and KDE
+	   (Requested from Mr. Sugita. Thanks).
+	5) Fix lock starvation with update button.
+	6) Directory sending facility is added.
+	7) Automatic download monitor updating.
+	8) Absent message format fixed.	
+	9) Read confirmation handling fixed.
+	10) Add src/menu.h(This was missing in former versions.)
+	    (Reported by Mr. Aditya. Thanks).
+	11) Sorting facility and user view configuration function are added.
+	12) Support get version info and get absence info.
+	13) Use sigaction in stead of send system call's MSG_NOSIGNAL flag 
+	    to mask SIGPIPE(For FreeBSD 5.X).
+	
+Version 0.8.6
+
+	Following fixes and improvements are performed:
+
+	1) Add getting hostlist.
+	2) Fix message window design.
+
+Version 0.8.5
+
+	Following fixes and improvements are performed:
+
+	1) Add update button on the message window.
+	2) Fix multiple file download and update GUI timing.
+	3) Change message window scroll bar as like as windows edition.
+	4) Handle EINTR signal when the client downloads a file.
+	5) Add attachment file editor size recording facility.
+	6) Send operation relevant memory leak fixed.
+	7) Multicast handling fixed.
+	8) Fix config window entry behavior fixed.
+	9) Fix absence message editor like windows edition.
+	10) Support no gst environment(Sound relevant functions
+	   are automatically disabled in such environments.)
+	11) Support GTk-2.8 or GTK-2.9 for FedoraCOre5
+	   (Clickable URL functions are automatically disabled
+	    in such environments.).
+        12) Show full contents of license.
+        13) Fix view window behavior like windows edition.
+        14) Handle EINTR when tcp receive thread obtains file info.
+        15) Support dial up modes.
+        16) Fix no auto reply condition.
+        17) Fix codeset of version info etc...
+        18) Fix codeset of getlist.
+        19) Fix URL/Key timeout handling.
+	
+Version 0.8.4
+
+	Following fixes and improvements are performed:
+
+	1) download file name bug fixed.
+	2) snprintf mem-leak fixed.
+
+Version 0.8.3
+
+	Following fixes and improvements are performed:
+
+	1) Download fail handling
+	2) Tooltips support.
+	3) Fix revoked down load file handling.
+	4) Download monitor fixed.
+	5) Fix message window design(add VPane).
+	6) Improve absence editor.
+	7) Support user list sorting
+	
+Version 0.8.2
+
+	Following fixes and improvements are performed:
+
+	1) Fix userdb slice allocation
+	2) Add dialog to execute/open attach file(or directory) like windows edition does.
+	3) Change userdb update method.
+	4) Add response function to host list request(Note: g2ipmsg does not send host list requests.).
+	5) Add Dial-up host handling(Note: g2ipmsg does not become to dial-up host on purpose.).
+	6) Using F5 Key to update user list.
+	
+Version 0.8.1
+
+	Fix applet exit handling.
+
+Version 0.8
+
+	Following fixes are performed:
+
+	1)  IP V6 initial support
+	2)  Fix handling of file attachment which have UTF-8 coded name.
+	3)  Fix file attachment relevant stack destroy.
+	4)  Use CodePage932 instead of strict Shift-JIS 
+	    as external representation.
+	5)  Reply absence message with IPMSG_AUTORETOPT to avoid
+	    absence message flood.
+	6)  Refrain multiple applet instance creation.
+	7)  Add show log file menu item.
+	8)  Change applet icon size.
+	9)  Fix Sound handling
+	10) configure.in fix for FreeBSD.
+
+Version 0.7
+
+	Not released internal use version.
+
+Version 0.6
+
+	First public release.

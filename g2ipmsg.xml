@@ -1,0 +1,24 @@
+<Root>
+   <popups>
+      <popup name="button3">
+	    <menuitem name="g2ipmsg new_message" verb="G2ipmsgNewMessage" _label="_New Message" pixtype="stock" pixname="gtk-new"/>
+         <separator/>
+	    <menuitem name="g2ipmsg download_monitor" verb="G2ipmsgDownLoadMonitor" _label="_Down Load Monitor"/>
+         <separator/>
+	    <menuitem name="g2ipmsg remove opened windows" verb="G2ipmsgRemoveWindows" _label="_Remove opend windows"/>
+	    <menuitem name="g2ipmsg foreground all message windows" verb="G2ipmsgForegroundWindows" _label="_Foreground all message windows"/>
+         <separator/>
+	 <menuitem name="g2ipmsg Preferences Item" verb="G2ipmsgPreferences" _label="_Preferences"
+	    pixtype="stock" pixname="gtk-properties"/>
+	 <menuitem name="g2ipmsg Security PreferenceItem" verb="G2ipmsgSecurityPreferences" _label="_security configuration"
+	    pixtype="stock" pixname="gtk-properties"/>
+	 <menuitem name="g2ipmsg About Item" verb="G2ipmsgAppletAbout" _label="_About"
+                   pixtype="stock" pixname="gnome-stock-about"/>
+	 <menuitem name="g2ipmsg ShowLog Item" verb="G2ipmsgAppletShowLog" _label="_Show Log"/>
+         <separator/>
+	 <menuitem name="g2ipmsg Absence Item" verb="G2ipmsgAppletFuzai" _label="A_bsence mode"
+                   pixtype="stock" pixname="gtk-properties"/>
+	 <menuitem name="g2ipmsg Attend Item" verb="G2ipmsgAppletZaiseki" _label="A_ttend"/>
+      </popup>
+   </popups>
+</Root>

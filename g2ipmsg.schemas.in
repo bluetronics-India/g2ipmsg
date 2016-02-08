@@ -1,0 +1,628 @@
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/g2ipmsg/portno</key>
+      <applyto>/apps/g2ipmsg/portno</applyto>
+      <owner>g2ipmsg</owner>
+      <type>int</type>
+      <default>2425</default>
+      <locale name="C">
+        <short>Port number</short>
+        <long>
+	The port number which g2ipmsg uses.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/group</key>
+      <applyto>/apps/g2ipmsg/group</applyto>
+      <owner>g2ipmsg</owner>
+      <type>string</type>
+      <default>Default Group</default>
+      <locale name="C">
+        <short>Group Name</short>
+        <long>Group name which you belong to. </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/nickname</key>
+      <applyto>/apps/g2ipmsg/nickname</applyto>
+      <owner>g2ipmsg</owner>
+      <type>string</type>
+      <default>Default Nick Name</default>
+      <locale name="C">
+        <short>Nick name</short>
+        <long>
+	Nick name which is displayed on ipmsg window.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/secret</key>
+      <applyto>/apps/g2ipmsg/secret</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Secret message</short>
+        <long>Set on this if you want send messages with seal as a default.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/confirm</key>
+      <applyto>/apps/g2ipmsg/confirm</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>read message confirmation</short>
+        <long>
+	Check read message confirmation as default.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/broadcasts</key>
+      <applyto>/apps/g2ipmsg/broadcasts</applyto>
+      <owner>g2ipmsg</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[255.255.255.255]</default>
+      <locale name="C">
+        <short>Broadcast addresses</short>
+        <long>Set Broadcast addresses.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/popup</key>
+      <applyto>/apps/g2ipmsg/popup</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>popup messages</short>
+        <long>
+	Popup message windows.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/sound</key>
+      <applyto>/apps/g2ipmsg/sound</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Sound setting</short>
+        <long>
+	Avoid playing sound on message arrive.
+        </long>
+      </locale>
+    </schema>
+
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/enclose</key>
+      <applyto>/apps/g2ipmsg/enclose</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>enclose</short>
+        <long>Enclose messages as default.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/cite</key>
+      <applyto>/apps/g2ipmsg/cite</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Citation Control</short>
+        <long>Check citation as default.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/ipv6</key>
+      <applyto>/apps/g2ipmsg/ipv6</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable IP V6 mode</short>
+        <long>Set this option if use g2ipmsg on IP V6 network
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/logfilepath</key>
+      <applyto>/apps/g2ipmsg/logfilepath</applyto>
+      <owner>g2ipmsg</owner>
+      <type>string</type>
+      <default>ipmsg.log</default>
+      <locale name="C">
+        <short>log file</short>
+        <long>Set log file name.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/enablelog</key>
+      <applyto>/apps/g2ipmsg/enablelog</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable logging</short>
+        <long>Enable logging on log-file.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/enablelogname</key>
+      <applyto>/apps/g2ipmsg/enablelogname</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>logon-name logging</short>
+        <long>Logging user's logon name.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/enablelogaddr</key>
+      <applyto>/apps/g2ipmsg/enablelogaddr</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>IP address logging</short>
+        <long>Enable IP address logging.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/loglockedmessage</key>
+      <applyto>/apps/g2ipmsg/loglockedmessage</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>logging locked message after openning it</short>
+        <long>Please check here if you want to log the content of the message 
+	after the message is opened when the message is locked.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/citestring</key>
+      <applyto>/apps/g2ipmsg/citestring</applyto>
+      <owner>g2ipmsg</owner>
+      <type>string</type>
+      <default>&gt;</default>
+      <locale name="C">
+        <short>Citation prefix</short>
+        <long>String which indicate citation.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/absence_titles</key>
+      <applyto>/apps/g2ipmsg/absence_titles</applyto>
+      <owner>g2ipmsg</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <locale name="C">
+        <default>[ABSENT,EATING,OUT,MEETING,VISITOR,HOME,EDO,SHUKKE]</default>
+        <short>Absence titile</short>
+        <long>set Absense titles
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/absence_messages</key>
+      <applyto>/apps/g2ipmsg/absence_messages</applyto>
+      <owner>g2ipmsg</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <locale name="C">
+      <default>[I am absent now.,I have been gone somewhere to eat.,I am out now.,I attend meeting now.,A visitor comes here.,I have come home.,Edo,Shukke.]</default>
+        <short>Absence messages</short>
+        <long>Absence messages
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/enable_debug</key>
+      <applyto>/apps/g2ipmsg/enable_debug</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>enable debug output</short>
+        <long>enable debug output
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/msg_win_width</key>
+      <applyto>/apps/g2ipmsg/msg_win_width</applyto>
+      <owner>g2ipmsg</owner>
+      <type>int</type>
+      <default>325</default>
+      <locale name="C">
+        <short>message window width</short>
+        <long>Change default message window width
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/msg_win_height</key>
+      <applyto>/apps/g2ipmsg/msg_win_height</applyto>
+      <owner>g2ipmsg</owner>
+      <type>int</type>
+      <default>370</default>
+      <locale name="C">
+        <short>message window height</short>
+        <long>Change default message window height
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/recv_win_width</key>
+      <applyto>/apps/g2ipmsg/recv_win_width</applyto>
+      <owner>g2ipmsg</owner>
+      <type>int</type>
+      <default>340</default>
+      <locale name="C">
+        <short>receive window width</short>
+        <long>Change default receive window width
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/recv_win_height</key>
+      <applyto>/apps/g2ipmsg/recv_win_height</applyto>
+      <owner>g2ipmsg</owner>
+      <type>int</type>
+      <default>333</default>
+      <locale name="C">
+        <short>receive window height</short>
+        <long>Change default receive window height
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/attach_win_width</key>
+      <applyto>/apps/g2ipmsg/attach_win_width</applyto>
+      <owner>g2ipmsg</owner>
+      <type>int</type>
+      <default>600</default>
+      <locale name="C">
+        <short>Attachment editor width</short>
+        <long>Change default attachment editor width
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/attach_win_height</key>
+      <applyto>/apps/g2ipmsg/attach_win_height</applyto>
+      <owner>g2ipmsg</owner>
+      <type>int</type>
+      <default>170</default>
+      <locale name="C">
+        <short>Attachment editor height</short>
+        <long>Change default attachment editor height
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/absence_win_width</key>
+      <applyto>/apps/g2ipmsg/absence_win_width</applyto>
+      <owner>g2ipmsg</owner>
+      <type>int</type>
+      <default>600</default>
+      <locale name="C">
+        <short>Absence message editor width</short>
+        <long>Change default absence message editor width
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/absence_win_height</key>
+      <applyto>/apps/g2ipmsg/absence_win_height</applyto>
+      <owner>g2ipmsg</owner>
+      <type>int</type>
+      <default>290</default>
+      <locale name="C">
+        <short>Absence message editor height</short>
+        <long>Change default absence message editor height
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/dialup</key>
+      <applyto>/apps/g2ipmsg/dialup</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable dialup mode</short>
+        <long>Set this option to enable dialup mode.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/get_host_list</key>
+      <applyto>/apps/g2ipmsg/get_host_list</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable getting host list facility</short>
+        <long>Set this option to enable getting host list facility
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/allow_host_list</key>
+      <applyto>/apps/g2ipmsg/allow_host_list</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Allow host list sending</short>
+        <long>Set this option to allow host list sending
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/default_prio</key>
+      <applyto>/apps/g2ipmsg/default_prio</applyto>
+      <owner>g2ipmsg</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <locale name="C">
+        <short>Default priority</short>
+        <long>Default priority(Separated by '@')
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/use_systray</key>
+      <applyto>/apps/g2ipmsg/use_systray</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Use SysTray</short>
+        <long>Please set here if you want to use g2ipmsg in the System Tray,
+	This need the system tray which perform with freedesktop.org compliant System Tray Protocol(see:http://www.freedesktop.org/wiki/Standards/systemtray-spec. This require gtk-2.10 or later).
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/header_visible</key>
+      <applyto>/apps/g2ipmsg/header_visible</applyto>
+      <owner>g2ipmsg</owner>
+      <type>int</type>
+      <default>5</default>
+      <locale name="C">
+        <short>Header visual</short>
+        <long>Header visual state
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/header_order</key>
+      <applyto>/apps/g2ipmsg/header_order</applyto>
+      <owner>g2ipmsg</owner>
+      <type>list</type>
+      <list_type>int</list_type>
+      <default>[0,1,2,3,4,5]</default>
+      <locale name="C">
+        <short>Header order</short>
+        <long>Internal header order representation.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/sort_with_group</key>
+      <applyto>/apps/g2ipmsg/sort_with_group</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Sort user list with group</short>
+        <long>Set here if you want to sort user list with group.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/sub_sort_id</key>
+      <applyto>/apps/g2ipmsg/sub_sort_id</applyto>
+      <owner>g2ipmsg</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+        <short>Sub sorting id</short>
+        <long>Internal representation of sub sorting id.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/group_sort_descending</key>
+      <applyto>/apps/g2ipmsg/group_sort_descending</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Group sort with descending order.</short>
+        <long>Set here to sort user list with descending ordered group name.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/sub_sort_descending</key>
+      <applyto>/apps/g2ipmsg/sub_sort_descending</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Sub sort with descending order</short>
+        <long>Set here to sort user list with descending ordered sub sort key.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/crypt_policy_speed</key>
+      <applyto>/apps/g2ipmsg/crypt_policy_speed</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Select cipher according to speed.</short>
+        <long>Set this option to select ciphers according to encoding/decoding speed.
+	      If you use low speed machine, please set this option.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/ciphers</key>
+      <applyto>/apps/g2ipmsg/ciphers</applyto>
+      <owner>g2ipmsg</owner>
+      <type>int</type>
+      <default>268881927</default>
+      <locale name="C">
+        <short>Select ciphers.</short>
+        <long>Select ciphers to encrypt messages.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/encrypt_publickey</key>
+      <applyto>/apps/g2ipmsg/encrypt_publickey</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short>Store encrypted public/private key pairs</short>
+        <long>Please check here if you want to store public/private keys with encryption .
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/lock</key>
+      <applyto>/apps/g2ipmsg/lock</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>FALSE</default>
+      <locale name="C">
+        <short>Enable lock for enclosed messages</short>
+        <long>Please check here if you want to use the lock feature(Sent messages can be opened by receiver's password.)
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/enc_pass</key>
+      <applyto>/apps/g2ipmsg/enc_pass</applyto>
+      <owner>g2ipmsg</owner>
+      <type>string</type>
+      <locale name="C">
+      <default></default>
+        <short>encryption password for public/private key storage</short>
+        <long>Encryption password for public/private key storage. This is encoded with pbkdf2.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/lock_pass</key>
+      <applyto>/apps/g2ipmsg/lock_pass</applyto>
+      <owner>g2ipmsg</owner>
+      <type>string</type>
+      <locale name="C">
+      <default></default>
+        <short>encryption password for lock</short>
+        <long>Encryption password for lock. This is encoded with pbkdf2.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/iconify_dialogs</key>
+      <applyto>/apps/g2ipmsg/iconify_dialogs</applyto>
+      <owner>g2ipmsg</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Inconify dialogs</short>
+        <long>Iconify normal dialogs when they are shown at first time.
+        </long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/g2ipmsg/external_encoding</key>
+      <applyto>/apps/g2ipmsg/external_encoding</applyto>
+      <owner>g2ipmsg</owner>
+      <type>string</type>
+      <default>CP932</default>
+      <locale name="C">
+        <short>External encoding for message</short>
+        <long>External message encoding to exchange messages via the network.
+        </long>
+      </locale>
+    </schema>
+
+  </schemalist>
+
+</gconfschemafile>

@@ -1,0 +1,1777 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-05-10 14:58+0100\n"
+"PO-Revision-Date: 2008-05-10 15:21+0100\n"
+"Last-Translator: Takeharu KATO\n"
+"Language-Team: No Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../g2ipmsg.server.in.h:1
+msgid "G2IPMSG Applet"
+msgstr "飞鸽传书小程序"
+
+#: ../g2ipmsg.server.in.h:2
+msgid "G2IPMSG applet for the GNOME2 panel"
+msgstr "飞鸽面板"
+
+#: ../g2ipmsg.server.in.h:3
+msgid "Utility"
+msgstr "效用"
+
+#: ../g2ipmsg.schemas.in.h:1
+msgid "Absence message editor height"
+msgstr "离开时框高"
+
+#: ../g2ipmsg.schemas.in.h:2
+msgid "Absence message editor width"
+msgstr "离开时框宽"
+
+#: ../g2ipmsg.schemas.in.h:3
+msgid "Absence messages"
+msgstr "离开时的消息"
+
+#: ../g2ipmsg.schemas.in.h:4
+msgid "Absence titile"
+msgstr "离开时的标题"
+
+#: ../g2ipmsg.schemas.in.h:5 ../src/interface.c:3362
+msgid "Allow host list sending"
+msgstr "允许主机列出正在发送"
+
+#: ../g2ipmsg.schemas.in.h:6
+msgid "Attachment editor height"
+msgstr "附件框高"
+
+#: ../g2ipmsg.schemas.in.h:7
+msgid "Attachment editor width"
+msgstr "附件框宽"
+
+#: ../g2ipmsg.schemas.in.h:8
+msgid "Avoid playing sound on message arrive."
+msgstr "收到消息播放声音"
+
+#: ../g2ipmsg.schemas.in.h:9
+msgid "Broadcast addresses"
+msgstr "广播地址"
+
+#: ../g2ipmsg.schemas.in.h:10
+msgid "Change default absence message editor height"
+msgstr "改变离开时的框高"
+
+#: ../g2ipmsg.schemas.in.h:11
+msgid "Change default absence message editor width"
+msgstr "改变离开时的框宽"
+
+#: ../g2ipmsg.schemas.in.h:12
+msgid "Change default attachment editor height"
+msgstr "改变附件框高"
+
+#: ../g2ipmsg.schemas.in.h:13
+msgid "Change default attachment editor width"
+msgstr "改变附件框宽"
+
+#: ../g2ipmsg.schemas.in.h:14
+msgid "Change default message window height"
+msgstr "改变默认高"
+
+#: ../g2ipmsg.schemas.in.h:15
+msgid "Change default message window width"
+msgstr "改变默认宽"
+
+#: ../g2ipmsg.schemas.in.h:16
+msgid "Change default receive window height"
+msgstr "改变默认接收框高"
+
+#: ../g2ipmsg.schemas.in.h:17
+msgid "Change default receive window width"
+msgstr "改变默认接收框宽"
+
+#: ../g2ipmsg.schemas.in.h:18
+msgid "Check citation as default."
+msgstr "检查默认引用"
+
+#: ../g2ipmsg.schemas.in.h:19
+msgid "Check read message confirmation as default."
+msgstr "检查默认读取消息的认证"
+
+#: ../g2ipmsg.schemas.in.h:20
+msgid "Citation Control"
+msgstr "引用控制"
+
+#: ../g2ipmsg.schemas.in.h:21
+msgid "Citation prefix"
+msgstr "引用文字列"
+
+#: ../g2ipmsg.schemas.in.h:22
+msgid "Default priority"
+msgstr "默认优先级"
+
+#: ../g2ipmsg.schemas.in.h:23
+msgid "Default priority(Separated by '@')"
+msgstr "默认优先级（以字符'@'分割）"
+
+#: ../g2ipmsg.schemas.in.h:24
+msgid "Enable IP V6 mode"
+msgstr "IP V6有効"
+
+#: ../g2ipmsg.schemas.in.h:25
+msgid "Enable IP address logging."
+msgstr "记录IP地址"
+
+#: ../g2ipmsg.schemas.in.h:26
+msgid "Enable dialup mode"
+msgstr "拔号使能"
+
+#: ../g2ipmsg.schemas.in.h:27 ../src/interface.c:3367
+msgid "Enable getting host list facility"
+msgstr "快速取主机列表使能"
+
+#: ../g2ipmsg.schemas.in.h:28 ../src/interface.c:3522
+msgid "Enable lock for enclosed messages"
+msgstr "允许为信息加密"
+
+#: ../g2ipmsg.schemas.in.h:29
+msgid "Enable logging"
+msgstr "使用记录"
+
+#: ../g2ipmsg.schemas.in.h:30
+msgid "Enable logging on log-file."
+msgstr "记录到文件使能"
+
+#: ../g2ipmsg.schemas.in.h:31
+msgid "Enclose messages as default."
+msgstr "封锁消息"
+
+#: ../g2ipmsg.schemas.in.h:32
+msgid "Encryption password for lock. This is encoded with pbkdf2."
+msgstr "用pbkdf2算法加密锁密码"
+
+#: ../g2ipmsg.schemas.in.h:33
+msgid ""
+"Encryption password for public/private key storage. This is encoded with "
+"pbkdf2."
+msgstr "用pbkdf2算法加密的公钥密钥"
+
+#: ../g2ipmsg.schemas.in.h:34
+msgid "External encoding for message"
+msgstr "消息外部编码"
+
+#: ../g2ipmsg.schemas.in.h:35
+msgid "External message encoding to exchange messages via the network."
+msgstr "用于在网络上交换消息的外部编码"
+
+#: ../g2ipmsg.schemas.in.h:36
+msgid "Group Name"
+msgstr "组名"
+
+#: ../g2ipmsg.schemas.in.h:37
+msgid "Group name which you belong to."
+msgstr "你所在组名"
+
+#: ../g2ipmsg.schemas.in.h:38
+msgid "Group sort with descending order."
+msgstr "按组反序排列"
+
+#: ../g2ipmsg.schemas.in.h:39
+msgid "Header order"
+msgstr "标题顺序"
+
+#: ../g2ipmsg.schemas.in.h:40
+msgid "Header visual"
+msgstr "标题视觉"
+
+#: ../g2ipmsg.schemas.in.h:41
+msgid "Header visual state"
+msgstr "标题视觉状态"
+
+#: ../g2ipmsg.schemas.in.h:42
+msgid "IP address logging"
+msgstr "记录IP地址"
+
+#: ../g2ipmsg.schemas.in.h:43
+msgid "Iconify normal dialogs when they are shown at first time."
+msgstr "将需要显示的对话框首先显示为图标"
+
+#: ../g2ipmsg.schemas.in.h:44
+msgid "Inconify dialogs"
+msgstr "图标化对话框"
+
+#: ../g2ipmsg.schemas.in.h:45
+msgid "Internal header order representation."
+msgstr "内部标题顺序."
+
+#: ../g2ipmsg.schemas.in.h:46
+msgid "Internal representation of sub sorting id."
+msgstr "补充ID排序的内部显示"
+
+#: ../g2ipmsg.schemas.in.h:47
+msgid "Logging user's logon name."
+msgstr "记录登录名"
+
+#: ../g2ipmsg.schemas.in.h:48
+msgid "Nick name"
+msgstr "昵称"
+
+#: ../g2ipmsg.schemas.in.h:49
+msgid "Nick name which is displayed on ipmsg window."
+msgstr "昵称"
+
+#: ../g2ipmsg.schemas.in.h:50 ../src/interface.c:717
+msgid ""
+"Please check here if you want to log the content of the message after the "
+"message is opened when the message is locked."
+msgstr "如果你想保存你收到并打开的带锁的消息，请选择这里"
+
+#: ../g2ipmsg.schemas.in.h:51 ../src/interface.c:3511
+msgid ""
+"Please check here if you want to store public/private keys with encryption ."
+msgstr "如果你想存储用于加密的公钥密钥，请选择这里"
+
+#: ../g2ipmsg.schemas.in.h:52 ../src/interface.c:3525
+msgid ""
+"Please check here if you want to use the lock feature(Sent messages can be "
+"opened by receiver's password.)"
+msgstr "如果你想使用锁功能（收信人必须输入密码打开消息），请选择这里"
+
+#: ../g2ipmsg.schemas.in.h:53
+msgid ""
+"Please set here if you want to use g2ipmsg in the System Tray, This need the "
+"system tray which perform with freedesktop.org compliant System Tray Protocol"
+"(see:http://www.freedesktop.org/wiki/Standards/systemtray-spec. This require "
+"gtk-2.10 or later)."
+msgstr ""
+"如果你想把它放入任务栏中，需要freedesktop.org系统任务栏条约，请参考http://"
+"www.freedesktop.org/wiki/Standards/systemtray-spec"
+
+#: ../g2ipmsg.schemas.in.h:54
+msgid "Popup message windows."
+msgstr "弹出消息"
+
+#: ../g2ipmsg.schemas.in.h:55
+msgid "Port number"
+msgstr "端口号"
+
+#: ../g2ipmsg.schemas.in.h:56
+msgid "Secret message"
+msgstr "加密消息"
+
+#: ../g2ipmsg.schemas.in.h:57
+msgid "Select cipher according to speed."
+msgstr "根据机器速度选择加密算法"
+
+#: ../g2ipmsg.schemas.in.h:58
+msgid "Select ciphers to encrypt messages."
+msgstr "选择用于加密消息的加密算法"
+
+#: ../g2ipmsg.schemas.in.h:59
+msgid "Select ciphers."
+msgstr "选择加密算法"
+
+#: ../g2ipmsg.schemas.in.h:60
+msgid "Set Broadcast addresses."
+msgstr "设置广播地址"
+
+#: ../g2ipmsg.schemas.in.h:61
+msgid "Set here if you want to sort user list with group."
+msgstr "设置按组排序."
+
+#: ../g2ipmsg.schemas.in.h:62
+msgid "Set here to sort user list with descending ordered group name."
+msgstr "设置按组名逆排序."
+
+#: ../g2ipmsg.schemas.in.h:63
+msgid "Set here to sort user list with descending ordered sub sort key."
+msgstr "设置二级排序方案."
+
+#: ../g2ipmsg.schemas.in.h:64
+msgid "Set log file name."
+msgstr "设置记录文件名"
+
+#: ../g2ipmsg.schemas.in.h:65
+msgid "Set on this if you want send messages with seal as a default."
+msgstr "设置加密方式发送消息."
+
+#: ../g2ipmsg.schemas.in.h:66
+msgid "Set this option if use g2ipmsg on IP V6 network"
+msgstr "设置IP V6网络选项."
+
+#: ../g2ipmsg.schemas.in.h:67
+msgid "Set this option to allow host list sending"
+msgstr "允许主机列表发送选项."
+
+#: ../g2ipmsg.schemas.in.h:68
+msgid "Set this option to enable dialup mode."
+msgstr "允许拔号模式."
+
+#: ../g2ipmsg.schemas.in.h:69
+msgid "Set this option to enable getting host list facility"
+msgstr "允许快速主机列表搜索."
+
+#: ../g2ipmsg.schemas.in.h:70
+msgid ""
+"Set this option to select ciphers according to encoding/decoding speed. If "
+"you use low speed machine, please set this option."
+msgstr ""
+"选择此项，如果你需要根据机器速度选择加密算法。如果你使用的是低速机器，请选择"
+"此项。"
+
+#: ../g2ipmsg.schemas.in.h:71
+msgid "Sort user list with group"
+msgstr "按组排序"
+
+#: ../g2ipmsg.schemas.in.h:72
+msgid "Sound setting"
+msgstr "设置音效"
+
+#: ../g2ipmsg.schemas.in.h:73 ../src/interface.c:3508
+msgid "Store encrypted public/private key pairs"
+msgstr "存储公钥密钥"
+
+#: ../g2ipmsg.schemas.in.h:74
+msgid "String which indicate citation."
+msgstr "引用"
+
+#: ../g2ipmsg.schemas.in.h:75
+msgid "Sub sort with descending order"
+msgstr "按组反序排列"
+
+#: ../g2ipmsg.schemas.in.h:76
+msgid "Sub sorting id"
+msgstr "子排序ID"
+
+#: ../g2ipmsg.schemas.in.h:77
+msgid "The port number which g2ipmsg uses."
+msgstr "g2ipmsg使用的端口"
+
+#: ../g2ipmsg.schemas.in.h:78
+msgid "Use SysTray"
+msgstr "使用任务栏图标"
+
+#: ../g2ipmsg.schemas.in.h:79
+msgid "[ABSENT,EATING,OUT,MEETING,VISITOR,HOME,EDO,SHUKKE]"
+msgstr "[离开,进食,外出,开会,会客,回家,干大事去了,出家]"
+
+#: ../g2ipmsg.schemas.in.h:80
+msgid ""
+"[I am absent now.,I have been gone somewhere to eat.,I am out now.,I attend "
+"meeting now.,A visitor comes here.,I have come home.,Edo,Shukke.]"
+msgstr "[离开,进食,外出,开会,会客,回家,干大事去了,出家]"
+
+#: ../g2ipmsg.schemas.in.h:81
+msgid "enable debug output"
+msgstr "开启调错"
+
+#: ../g2ipmsg.schemas.in.h:82
+msgid "enclose"
+msgstr "加密"
+
+#: ../g2ipmsg.schemas.in.h:83
+msgid "encryption password for lock"
+msgstr "解密密码"
+
+#: ../g2ipmsg.schemas.in.h:84
+msgid "encryption password for public/private key storage"
+msgstr "访问公钥密钥的密码"
+
+#: ../g2ipmsg.schemas.in.h:85 ../src/interface.c:668
+msgid "log file"
+msgstr "记录文件"
+
+#: ../g2ipmsg.schemas.in.h:86
+msgid "logging locked message after openning it"
+msgstr "将打开的上锁消息加到日志文件中"
+
+#: ../g2ipmsg.schemas.in.h:87
+msgid "logon-name logging"
+msgstr "登录名记录中"
+
+#: ../g2ipmsg.schemas.in.h:88
+msgid "message window height"
+msgstr "消息窗口高"
+
+#: ../g2ipmsg.schemas.in.h:89
+msgid "message window width"
+msgstr "消息窗口宽"
+
+#: ../g2ipmsg.schemas.in.h:90
+msgid "popup messages"
+msgstr "弹出消息"
+
+#: ../g2ipmsg.schemas.in.h:91
+msgid "read message confirmation"
+msgstr "读取消息确定"
+
+#: ../g2ipmsg.schemas.in.h:92
+msgid "receive window height"
+msgstr "接收窗口高"
+
+#: ../g2ipmsg.schemas.in.h:93
+msgid "receive window width"
+msgstr "接收消息宽"
+
+#: ../g2ipmsg.schemas.in.h:94
+msgid "set Absense titles"
+msgstr "设置不在时的标题"
+
+#: ../g2ipmsg.desktop.in.h:1
+msgid "GNOME2 IP Messenger"
+msgstr "GNOME2飞鸽"
+
+#: ../g2ipmsg.desktop.in.h:2
+msgid "IP Messenger for the GNOME2"
+msgstr "GNOME2 版 飞鸽"
+
+#: ../g2ipmsg.xml.h:1
+msgid "A_bsence mode"
+msgstr "离开"
+
+#: ../g2ipmsg.xml.h:2
+msgid "A_ttend"
+msgstr "在席(不在解除)"
+
+#: ../g2ipmsg.xml.h:3
+msgid "_About"
+msgstr "关于"
+
+#: ../g2ipmsg.xml.h:4
+msgid "_Down Load Monitor"
+msgstr "下载窗"
+
+#: ../g2ipmsg.xml.h:5
+msgid "_Foreground all message windows"
+msgstr "前置所有窗口"
+
+#: ../g2ipmsg.xml.h:6 ../src/menu.c:388
+msgid "_New Message"
+msgstr "新消息"
+
+#: ../g2ipmsg.xml.h:7
+msgid "_Preferences"
+msgstr "设置"
+
+#: ../g2ipmsg.xml.h:8
+msgid "_Remove opend windows"
+msgstr "关闭已开的窗口"
+
+#: ../g2ipmsg.xml.h:9
+msgid "_Show Log"
+msgstr "查看记录"
+
+#: ../g2ipmsg.xml.h:10
+msgid "_security configuration"
+msgstr "安全设置"
+
+#: ../src/copying.h:29 ../src/interface.c:1353 ../src/menu.c:515
+msgid "Takeharu KATO"
+msgstr "Takeharu KATO"
+
+#: ../src/copying.h:30
+msgid ""
+"Takeharu KATO\n"
+"ZC Miao\n"
+msgstr ""
+"雷金波(Takeharu KATO)\n"
+"缪志澄\n"
+
+#: ../src/ipmsg.c:156
+msgid "Can not setup lock file"
+msgstr "无法设置锁文件"
+
+#: ../src/ipmsg.c:157
+msgid "errno"
+msgstr "错误号"
+
+#: ../src/netcommon.c:45
+msgid "Can not set buffer size"
+msgstr "不能设置缓冲大小"
+
+#: ../src/netcommon.c:106
+msgid "Can not set broad cast"
+msgstr "不能设置广播消息"
+
+#: ../src/netcommon.c:174 ../src/udp.c:407
+msgid "Can not get addr info"
+msgstr "无法获得地址信息"
+
+#: ../src/interface.c:32
+msgid "Attachment"
+msgstr "添加附件"
+
+#: ../src/interface.c:46 ../src/interface.c:3062
+msgid "Set priority as 1"
+msgstr "设置为一级优先级"
+
+#: ../src/interface.c:53 ../src/interface.c:3069
+msgid "Set priority as 2"
+msgstr "设置为二级优先级"
+
+#: ../src/interface.c:60 ../src/interface.c:3076
+msgid "Set priority as 3"
+msgstr "设置为三级优先级"
+
+#: ../src/interface.c:67 ../src/interface.c:3083
+msgid "Set priority as 4"
+msgstr "设置为四级优先级"
+
+#: ../src/interface.c:74 ../src/interface.c:3090
+msgid "Set them as default"
+msgstr "设置为默认"
+
+#: ../src/interface.c:81 ../src/interface.c:3097
+msgid "Set them invisible item"
+msgstr "设置隐形的"
+
+#: ../src/interface.c:89 ../src/interface.c:3105
+msgid "Show invisible items"
+msgstr "显示隐形的"
+
+#: ../src/interface.c:96 ../src/interface.c:3112
+msgid "Set all as default"
+msgstr "设置所有为默认"
+
+#: ../src/interface.c:111 ../src/interface.c:3124
+msgid "Sort filter"
+msgstr "排序过滤"
+
+#: ../src/interface.c:112
+msgid "Set priority of entries"
+msgstr "设置优先级"
+
+#: ../src/interface.c:118 ../src/interface.c:3153
+msgid "User list view config"
+msgstr "用户列表设置"
+
+#: ../src/interface.c:119
+msgid "Set user list configurations."
+msgstr "配置用户列表"
+
+#: ../src/interface.c:125 ../src/interface.c:3146
+msgid "Save list headers state"
+msgstr "保存列表标题状态"
+
+#: ../src/interface.c:126
+msgid "Save current setting about user list."
+msgstr "保存当前用户列表的设置"
+
+#: ../src/interface.c:133 ../src/menu.c:409
+msgid "security configuration"
+msgstr "安全设置"
+
+#: ../src/interface.c:134
+msgid "Set security relevant configuration"
+msgstr "安全相关配置"
+
+#: ../src/interface.c:145
+msgid "Update"
+msgstr "更新"
+
+#: ../src/interface.c:152
+msgid "get version"
+msgstr "取得版本信息"
+
+#: ../src/interface.c:159
+msgid "get absence info"
+msgstr "取不在时的信息"
+
+#: ../src/interface.c:213 ../src/interface.c:961
+msgid "g2ipmsg"
+msgstr "GNOME2版飞鸽"
+
+#: ../src/interface.c:251
+msgid "Please select receivers or drop attachment files."
+msgstr "选择收件人或放下拖入的附件"
+
+#: ../src/interface.c:272
+msgid "current users"
+msgstr "当前用户"
+
+#: ../src/interface.c:276
+msgid "<b>Users</b>"
+msgstr "<b>用户</b>"
+
+#: ../src/interface.c:284
+msgid "Please push this button to update the user list."
+msgstr "按下更新用户列表"
+
+#: ../src/interface.c:296
+msgid "Please edit your message or drop attachment files."
+msgstr "编辑消息或拖进附件"
+
+#: ../src/interface.c:307 ../src/interface.c:1560 ../src/interface.c:2110
+#: ../src/interface.c:2462 ../src/interface.c:2585
+msgid "Please push this button to close this window."
+msgstr "按下关闭本窗口."
+
+#: ../src/interface.c:309
+msgid "SEND"
+msgstr "发信"
+
+#: ../src/interface.c:313
+msgid "Please push this button to send the message."
+msgstr "发送"
+
+#: ../src/interface.c:319
+msgid "enclose message"
+msgstr "加密"
+
+#: ../src/interface.c:322
+msgid "Check here to make this message sealed."
+msgstr "加密检查"
+
+#: ../src/interface.c:324
+msgid "lock"
+msgstr "锁"
+
+#: ../src/interface.c:327
+msgid "Check here to lock this message(need to enclose the message)."
+msgstr "锁住消息"
+
+#: ../src/interface.c:497
+msgid "configuration"
+msgstr "设置"
+
+#: ../src/interface.c:527
+msgid "Enter your nick name."
+msgstr "输入昵称"
+
+#: ../src/interface.c:530
+msgid "<b>User Name</b>"
+msgstr "<b>用户名</b>"
+
+#: ../src/interface.c:552
+msgid "Add"
+msgstr "追加"
+
+#: ../src/interface.c:555
+msgid "Please push here to add your group name."
+msgstr "按下添加组名"
+
+#: ../src/interface.c:557
+msgid "<b>Group Name</b>"
+msgstr "<b>组名</b>"
+
+#: ../src/interface.c:579
+msgid "enable open check"
+msgstr "开启检查"
+
+#: ../src/interface.c:582
+msgid "Please check here to receive read notification from receiver."
+msgstr "返回成功通知"
+
+#: ../src/interface.c:584
+msgid "Non-popup receive"
+msgstr "不弹出收件"
+
+#: ../src/interface.c:587
+msgid "Refrain automatic popuped receive window creation."
+msgstr "停止自动弹出收件窗口"
+
+#: ../src/interface.c:589
+msgid "No sound"
+msgstr "不要声音"
+
+#: ../src/interface.c:592
+msgid "Please check here to refrain from playing sounds."
+msgstr "播放声音检查"
+
+#: ../src/interface.c:594
+msgid "check enclose message as default"
+msgstr "加密消息"
+
+#: ../src/interface.c:597
+msgid "Please check here if you want to send sealed messages as default."
+msgstr "发送加密消息"
+
+#: ../src/interface.c:599
+msgid "check citation as default"
+msgstr "引用原文"
+
+#: ../src/interface.c:602
+msgid ""
+"Please check here if you want to edit reply message with citation of "
+"original message."
+msgstr "在消息中加入来信原文"
+
+#: ../src/interface.c:604
+msgid "enable IP V6 only mode (Need restart)"
+msgstr "仅用IP V6(要重启)"
+
+#: ../src/interface.c:607
+msgid "Please check here to use this software on the IP V6 environment."
+msgstr "IP V6环境"
+
+#: ../src/interface.c:609
+msgid "enable dial up connection mode"
+msgstr "开启拔号连接模式"
+
+#: ../src/interface.c:612
+msgid "Please check here to use this software on the dial up environment."
+msgstr "开启拔号环境"
+
+#: ../src/interface.c:614
+msgid "iconfy read confirmation dialog"
+msgstr "将消息收到确认消息显示为图标"
+
+#: ../src/interface.c:617
+msgid "Please check here to iconify read confirmation dialog window."
+msgstr "选择这里，如果你想将消息收到确认消息显示为图标"
+
+#: ../src/interface.c:623
+msgid "External representation of IPMSG character code"
+msgstr "字符编码的外部代号"
+
+#: ../src/interface.c:631
+msgid "<b>Options</b>"
+msgstr "<b>选项</b>"
+
+#: ../src/interface.c:654
+msgid "Please push this button to choose the log-file."
+msgstr "选择记录文件"
+
+#: ../src/interface.c:677
+msgid ""
+"This entry show log-file path, please edit here to specify your log-file "
+"path."
+msgstr "输入要记录消息的文件"
+
+#: ../src/interface.c:680
+msgid "enable logging"
+msgstr "开启记录"
+
+#: ../src/interface.c:685
+msgid "Please check here to enable logging facility."
+msgstr "开启记录"
+
+#: ../src/interface.c:702
+msgid "logging logon name"
+msgstr "记录登录名"
+
+#: ../src/interface.c:706
+msgid "Please check here to log user's logon name into the log-file."
+msgstr "记录登录名到记录文件"
+
+#: ../src/interface.c:708
+msgid "logging IP Addresses"
+msgstr "记录IP地址"
+
+#: ../src/interface.c:712
+msgid "Please check here to log user's IP addresses into the log-file."
+msgstr "记录IP地址到记录文件"
+
+#: ../src/interface.c:714
+msgid "logging locked messages after opening the message."
+msgstr "将打开的上锁消息加到日志文件中"
+
+#: ../src/interface.c:719
+msgid "<b>Logging Option</b>"
+msgstr "<b>记录选项</b>"
+
+#: ../src/interface.c:724
+msgid "<b>Logfile</b>"
+msgstr "<b>记录文件</b>"
+
+#: ../src/interface.c:745
+msgid "Please input broad cast address."
+msgstr "输入广播地址"
+
+#: ../src/interface.c:753 ../src/interface.c:1851
+msgid ">>"
+msgstr ">>"
+
+#: ../src/interface.c:757
+msgid ""
+"Please push this button to add the broad cast address to broad cast address "
+"list."
+msgstr "按下加入广播地址"
+
+#: ../src/interface.c:759 ../src/interface.c:1857
+msgid "<<"
+msgstr "<<"
+
+#: ../src/interface.c:763
+msgid ""
+"Please push this button to remove the broad cast address from broad cast "
+"address list."
+msgstr "按下删除广播地址"
+
+#: ../src/interface.c:776
+msgid ""
+"This list shows broad cast addresses for entry/absence status notification."
+msgstr "该列表显示广播列表"
+
+#: ../src/interface.c:778
+msgid "<b>Broadcast address setting</b>"
+msgstr "<b>广播地址设置</b>"
+
+#: ../src/interface.c:790
+msgid "Please push this button to apply this configuration."
+msgstr "按下应用该选项"
+
+#: ../src/interface.c:795
+msgid "Please push this button to discard this configuration"
+msgstr "按下取消该选项"
+
+#: ../src/interface.c:1036
+msgid "DownLoad"
+msgstr "下载"
+
+#: ../src/interface.c:1068
+msgid "This entry show where files are stored."
+msgstr "显示文件存储位置"
+
+#: ../src/interface.c:1071
+msgid "Down load directory"
+msgstr "下载目录"
+
+#: ../src/interface.c:1080
+msgid "Please push this button to choose download directory."
+msgstr "按下选择下载目录"
+
+#: ../src/interface.c:1086
+msgid "Please push this button to start downloads."
+msgstr "按下开始下载"
+
+#: ../src/interface.c:1092
+msgid "Please push this button to discard download files."
+msgstr "按下取消下载"
+
+#: ../src/interface.c:1103
+msgid "Please select files to be saved."
+msgstr "选择文件保存"
+
+#: ../src/interface.c:1105
+msgid "down load all at once"
+msgstr "立即全部下载"
+
+#: ../src/interface.c:1109
+msgid ""
+"Please check here if you want to download all of selected files at once."
+msgstr "马上下载所有选择的文件"
+
+#: ../src/interface.c:1112
+msgid "<b>DownLoad files</b>"
+msgstr "<b>下载文件</b>"
+
+#: ../src/interface.c:1169
+msgid "download dialog"
+msgstr "下载对话框"
+
+#: ../src/interface.c:1227
+msgid "save down loaded file"
+msgstr "保存下载文件"
+
+#: ../src/interface.c:1298 ../src/callbacks.c:594
+msgid "LogFile"
+msgstr "记录文件"
+
+#: ../src/interface.c:1352
+msgid "G2ipmsg"
+msgstr "GNOME2版飞鸽"
+
+#: ../src/interface.c:1354
+msgid ""
+"Copyright (c)  2008, Takeharu KATO\n"
+"All rights reserved.\n"
+"\n"
+" Redistribution and use in source and binary forms, with or without\n"
+" modification, are permitted provided that the following conditions\n"
+" are met:\n"
+" 1. Redistributions of source code must retain the above copyright\n"
+"    notice, this list of conditions and the following disclaimer.\n"
+" 2. Redistributions in binary form must reproduce the above copyright\n"
+"    notice, this list of conditions and the following disclaimer in the\n"
+"    documentation and/or other materials provided with the distribution.\n"
+" \n"
+" THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND\n"
+" ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n"
+" IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\n"
+" ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE\n"
+" FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n"
+" DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\n"
+" OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\n"
+" HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\n"
+" LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY\n"
+" OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\n"
+" SUCH DAMAGE."
+msgstr ""
+"Copyright (c)  2008, Takeharu KATO\n"
+"All rights reserved.\n"
+"\n"
+" Redistribution and use in source and binary forms, with or without\n"
+" modification, are permitted provided that the following conditions\n"
+" are met:\n"
+" 1. Redistributions of source code must retain the above copyright\n"
+"    notice, this list of conditions and the following disclaimer.\n"
+" 2. Redistributions in binary form must reproduce the above copyright\n"
+"    notice, this list of conditions and the following disclaimer in the\n"
+"    documentation and/or other materials provided with the distribution.\n"
+" \n"
+" THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND\n"
+" ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n"
+" IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\n"
+" ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE\n"
+" FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n"
+" DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\n"
+" OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\n"
+" HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\n"
+" LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY\n"
+" OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\n"
+" SUCH DAMAGE."
+
+#: ../src/interface.c:1397 ../src/interface.c:1414
+msgid "Read Message"
+msgstr "读取消息"
+
+#: ../src/interface.c:1497
+msgid "Receive message"
+msgstr "接收消息"
+
+#: ../src/interface.c:1532
+msgid "<b>Message from ...</b>"
+msgstr "<b>消息来自...</b>"
+
+#: ../src/interface.c:1565
+msgid "Please push this button to reply."
+msgstr "按下回复消息"
+
+#: ../src/interface.c:1579
+msgid "Reply"
+msgstr "回信"
+
+#: ../src/interface.c:1587
+msgid "Cite"
+msgstr "引用"
+
+#: ../src/interface.c:1590
+msgid "Please check here to cite original message to reply."
+msgstr "引用原消息回信"
+
+#: ../src/interface.c:1654
+msgid "SendFail"
+msgstr "发信失败"
+
+#: ../src/interface.c:1671
+msgid "Can not send message"
+msgstr "不能发送消息"
+
+#: ../src/interface.c:1679
+msgid "Retry?"
+msgstr "重试?"
+
+#: ../src/interface.c:1762
+msgid "Edit Attachments"
+msgstr "添加附件"
+
+#: ../src/interface.c:1802
+msgid "Please push here to choose an attachment file."
+msgstr "选择附件文件"
+
+#: ../src/interface.c:1837
+msgid "This entry show the attachment file path."
+msgstr "附件路径"
+
+#: ../src/interface.c:1840
+msgid "<b>FileChooser</b>"
+msgstr "<b>文件选择</b>"
+
+#: ../src/interface.c:1855
+msgid "Please push this button to add the file into attachment file list."
+msgstr "按下添加文件到附件列表中"
+
+#: ../src/interface.c:1861
+msgid "Please push this button to remove the file from attachment file list."
+msgstr "按下从附件列表中删除文件"
+
+#: ../src/interface.c:1884
+msgid "This list shows attachment files of the message."
+msgstr "该列表显示附件中文件"
+
+#: ../src/interface.c:1887
+msgid "<b>Attached files</b>"
+msgstr "<b>附件</b>"
+
+#: ../src/interface.c:1892
+msgid "<b>Attachment Editor</b>"
+msgstr "<b>附件编辑</b>"
+
+#: ../src/interface.c:1981
+msgid "Overwrite comfirmation"
+msgstr "改写确认"
+
+#: ../src/interface.c:2007
+msgid "Following file already exist:"
+msgstr "下列文件已经存在:"
+
+#: ../src/interface.c:2011 ../src/callbacks.c:1046
+msgid "FilePath"
+msgstr "文件路径"
+
+#: ../src/interface.c:2015
+msgid "Over Write?"
+msgstr "改写？"
+
+#: ../src/interface.c:2019
+msgid "<b>Over write confirmation</b>"
+msgstr "<b>改写确认</b>"
+
+#: ../src/interface.c:2075
+msgid "Down load monitor"
+msgstr "下载窗口"
+
+#: ../src/interface.c:2098
+msgid "Please push this button to revoke permission to down load the file."
+msgstr "按下取消文件下载权限"
+
+#: ../src/interface.c:2104
+msgid "Please push this button to update the download file list."
+msgstr "按下更新下载文件列表"
+
+#: ../src/interface.c:2129
+msgid "This list shows download files which you sent."
+msgstr "该列表显示你发送的文件"
+
+#: ../src/interface.c:2131
+msgid "<b>download files</b>"
+msgstr "<b>下载文件</b>"
+
+#: ../src/interface.c:2197 ../src/interface.c:2236 ../src/interface.c:3653
+msgid "password"
+msgstr "密码"
+
+#: ../src/interface.c:2222
+msgid "current password"
+msgstr "当前密码"
+
+#: ../src/interface.c:2251
+msgid "confirm password"
+msgstr "确认密码"
+
+#: ../src/interface.c:2346
+msgid "Absence Notification"
+msgstr "不在通知"
+
+#: ../src/interface.c:2378
+msgid "This list shows absence message titiles."
+msgstr "不在消息标题"
+
+#: ../src/interface.c:2382
+msgid "<b>Titles</b>"
+msgstr "<b>不在通知标题</b>"
+
+#: ../src/interface.c:2413
+msgid "Title"
+msgstr "标题"
+
+#: ../src/interface.c:2420
+msgid ""
+"This entry show absence message title, please edit this entry as you like."
+msgstr "编辑你喜欢的不在消息标题"
+
+#: ../src/interface.c:2432
+msgid "Please edit this entry as you like to modify the absence message."
+msgstr "编辑你喜欢的不在消息标题"
+
+#: ../src/interface.c:2434
+msgid "<b>Absence message</b>"
+msgstr "<b>不在通知</b>"
+
+#: ../src/interface.c:2446
+msgid "Set absent mode"
+msgstr "不在模式"
+
+#: ../src/interface.c:2450
+msgid "Please push this button to apply changes and to enter the absent mode."
+msgstr "按下进离开模式"
+
+#: ../src/interface.c:2452
+msgid "Apply Only"
+msgstr "选择单一"
+
+#: ../src/interface.c:2456
+msgid "Push this button to apply changes on this absence message."
+msgstr "按下选择离开消息."
+
+#: ../src/interface.c:2533 ../src/interface.c:2730
+msgid "Down load complete"
+msgstr "下载完成"
+
+#.
+#. * カット＆ペースト用に位置情報と発生内容を表示
+#.
+#: ../src/interface.c:2560 ../src/interface.c:3763 ../src/dialog.c:219
+msgid "FileName"
+msgstr "文件名"
+
+#: ../src/interface.c:2564 ../src/callbacks.c:1066
+msgid "FileSize"
+msgstr "文件大小"
+
+#: ../src/interface.c:2568
+msgid "appName"
+msgstr "程序名"
+
+#: ../src/interface.c:2572
+msgid "<b>Down Load Complete</b>"
+msgstr "<b>下载完成</b>"
+
+#: ../src/interface.c:2591
+msgid ""
+"Please push this button to open the directory which the downloaded file is "
+"stored."
+msgstr "按下打开下载存放目录."
+
+#: ../src/interface.c:2597
+msgid "Please push this button to handle the downloaded file."
+msgstr "按下下载文件."
+
+#: ../src/interface.c:2649
+msgid "Down load failed"
+msgstr "下载失败"
+
+#: ../src/interface.c:2666
+msgid "Can not receive the file properly."
+msgstr "不能下载文件."
+
+#: ../src/interface.c:2674
+msgid "Retry this file?"
+msgstr "重试这个文件?"
+
+#: ../src/interface.c:2720
+msgid "down load complete"
+msgstr "下载完了"
+
+#: ../src/interface.c:2734
+msgid "Do you want to open the directory?"
+msgstr "你要打开目录吗?"
+
+#: ../src/interface.c:2738
+msgid "Directory"
+msgstr "目录"
+
+#: ../src/interface.c:2813
+msgid "View Config"
+msgstr "显示设置"
+
+#: ../src/interface.c:2847
+msgid "Group"
+msgstr "组名"
+
+#: ../src/interface.c:2853
+msgid "Host Name"
+msgstr "主机名"
+
+#: ../src/interface.c:2859 ../src/interface.c:2969 ../src/dialog.c:369
+msgid "IP Address"
+msgstr "IP地址"
+
+#: ../src/interface.c:2865
+msgid "Logon Name"
+msgstr "登录名"
+
+#: ../src/interface.c:2871
+msgid "Priority"
+msgstr "优先级"
+
+#: ../src/interface.c:2877
+msgid "Show Grid"
+msgstr "显示网格"
+
+#: ../src/interface.c:2891
+msgid "You can reorder list header by drag-and-drop the list header."
+msgstr "拖 拉可以改变列表头顺序"
+
+#: ../src/interface.c:2893
+msgid "<b>user list view relevant options</b>"
+msgstr "<b>用户列表相关选项</b>"
+
+#: ../src/interface.c:2924
+msgid "Sort with group"
+msgstr "按组排序"
+
+#: ../src/interface.c:2928 ../src/interface.c:2977
+msgid "Descending Sort"
+msgstr "反序"
+
+#: ../src/interface.c:2932
+msgid "<b>Sort with group</b>"
+msgstr "<b>按组排序</b>"
+
+#: ../src/interface.c:2952
+msgid "User Name"
+msgstr "用户名"
+
+#: ../src/interface.c:2961
+msgid "Machine Name"
+msgstr "机器名"
+
+#: ../src/interface.c:2983
+msgid "<b>Sort with following key</b>"
+msgstr "<b>按下载键排序</b>"
+
+#: ../src/interface.c:2988
+msgid "<b>Sotring Configuration</b>"
+msgstr "<b>排序设置</b>"
+
+#: ../src/interface.c:3131
+msgid "Group selection"
+msgstr "选择组"
+
+#: ../src/interface.c:3138 ../src/callbacks.c:3001
+msgid "AttachmentFile"
+msgstr "添加附件"
+
+#: ../src/interface.c:3214
+msgid "client information"
+msgstr "好友信息"
+
+#: ../src/interface.c:3263
+msgid "<b>Client Information</b>"
+msgstr "<b>好友信息</b>"
+
+#: ../src/interface.c:3336
+msgid "Host List Control/Security"
+msgstr "主机控制列表"
+
+#: ../src/interface.c:3365
+msgid "Please check here if you want to send your host list to other hosts."
+msgstr "请选择这里，如果你想发送你的主机列表给其他主机"
+
+#: ../src/interface.c:3370
+msgid "Please check here if you want to obtain host lists from other hosts."
+msgstr "请选择这里，如果你想从其他主机获得主机列表"
+
+#: ../src/interface.c:3372
+msgid "<b>Host list</b>"
+msgstr "<b>主机列表</b>"
+
+#: ../src/interface.c:3390 ../src/dialog.c:451
+msgid "RC2 40 bits"
+msgstr "RC2 40位"
+
+#: ../src/interface.c:3395
+msgid "Please check here if you want to use RC2 40 bits key for encryption."
+msgstr "请选择这里，如果你想使用RC2 40位加密"
+
+#: ../src/interface.c:3397 ../src/dialog.c:454
+msgid "RC2 128 bits"
+msgstr "RC2 128 位"
+
+#: ../src/interface.c:3402
+msgid "Please check here if you want to use RC2 128 bits key for encryption."
+msgstr "请选择这里，如果你想使用RC2 128位加密"
+
+#: ../src/interface.c:3404 ../src/dialog.c:457
+msgid "RC2 256 bits"
+msgstr "RC2 256 位"
+
+#: ../src/interface.c:3409
+msgid "Please check here if you want to use RC2 256 bits key for encryption."
+msgstr "请选择这里，如果你想使用RC2 256位加密"
+
+#: ../src/interface.c:3411 ../src/dialog.c:460
+msgid "Blowfish 128 bits"
+msgstr "Blowfish 128 位"
+
+#: ../src/interface.c:3416
+msgid ""
+"Please check here if you want to use blowfish 128 bits key for encryption."
+msgstr "请选择这里，如果你想使用blowfish 128位加密"
+
+#: ../src/interface.c:3418 ../src/dialog.c:463
+msgid "Blowfish 256 bits"
+msgstr "Blowfish 256 位"
+
+#: ../src/interface.c:3423
+msgid ""
+"Please check here if you want to use blowfish 256 bits key for encryption."
+msgstr "请选择这里，如果你想使用blowfish 256位加密"
+
+#: ../src/interface.c:3425
+msgid "MD5 sign"
+msgstr "MD5 签名"
+
+#: ../src/interface.c:3430
+msgid ""
+"Please check here if you want to use MD5 hash function to sign your messages."
+msgstr "请选择这里，如果你想使用MD5签名你的消息"
+
+#: ../src/interface.c:3432
+msgid "SHA1 sign"
+msgstr "SH1 签名"
+
+#: ../src/interface.c:3437
+msgid ""
+"Please check here if you want to use SHA1 hash function to sign your "
+"messages."
+msgstr "请选择这里，如果你想使用SHA1签名你的消息"
+
+#: ../src/interface.c:3439 ../src/dialog.c:428
+msgid "RSA 512 bits"
+msgstr "RSA 512 位"
+
+#: ../src/interface.c:3444
+msgid ""
+"Please check here if you want to use RSA 512 bits key to encrypt the common "
+"key."
+msgstr "请选择这里，如果你想使用blowfish 512位加密密钥"
+
+#: ../src/interface.c:3446 ../src/dialog.c:431
+msgid "RSA 1024 bits"
+msgstr "RSA 1024 位"
+
+#: ../src/interface.c:3451
+msgid ""
+"Please check here if you want to use RSA 1024 bits key to encrypt the common "
+"key."
+msgstr "请选择这里，如果你想使用RSA 1024位加密密钥"
+
+#: ../src/interface.c:3453 ../src/dialog.c:434
+msgid "RSA 2048 bits"
+msgstr "RSA 2048 位"
+
+#: ../src/interface.c:3458
+msgid ""
+"Please check here if you want to use RSA 2048 bits key to encrypt the common "
+"key."
+msgstr "请选择这里，如果你想使用RSA 2048位加密密钥"
+
+#: ../src/interface.c:3460 ../src/dialog.c:466
+msgid "AES 128 bits"
+msgstr "AES 128 位"
+
+#: ../src/interface.c:3465
+msgid "Please check here if you want to use AES 128 bits key for encryption."
+msgstr "请选择这里，如果你想使用AES 128位加密"
+
+#: ../src/interface.c:3467 ../src/dialog.c:469
+msgid "AES 192 bits"
+msgstr "AES 192 位"
+
+#: ../src/interface.c:3472
+msgid "Please check here if you want to use AES 192 bits key for encryption."
+msgstr "请选择这里，如果你想使用AES 192位加密"
+
+#: ../src/interface.c:3474 ../src/dialog.c:472
+msgid "AES 256 bits"
+msgstr "AES 256 位"
+
+#: ../src/interface.c:3479
+msgid "Please check here if you want to use AES 256 bits key for encryption."
+msgstr "请选择这里，如果你想使用AES 256位加密"
+
+#: ../src/interface.c:3481
+msgid "<b>Cipher selection</b>"
+msgstr "<b>加密方法选择</b>"
+
+#: ../src/interface.c:3499
+msgid "Select the encrypt key according to its speed"
+msgstr "根据机器速度选择加密密钥类型"
+
+#: ../src/interface.c:3502
+msgid ""
+"Please check here if you want to select the common key according to its "
+"coding speed.Please note that some clients can not handle arbitary "
+"combinations of keys(i.e. Windows client can handle RSA 1024 bits with "
+"Blowfish 128 bits or RSA 512 bits with RC2 40 bits)."
+msgstr ""
+"请选择这里，如果你想根据速度选择密钥。\n"
+"注意：有些客户端无法处理某些随意组合的密钥算法（比如，windows客户端无法处理"
+"RSA 1024bit混合Blowfish 128bits，以及RSA 512bits与RC2 40bits的混合）"
+
+#: ../src/interface.c:3513 ../src/interface.c:3527
+msgid "set password"
+msgstr "设置密码"
+
+#: ../src/interface.c:3516
+msgid ""
+"Please push this button to set password for private/public key encryption."
+msgstr "请按下本按钮为密钥对设置密码"
+
+#: ../src/interface.c:3530
+msgid "Please push this button to set password for unlock messages."
+msgstr "请按下本按钮为信息消息密码"
+
+#: ../src/interface.c:3532
+msgid "<b>Security Relevant Options</b>"
+msgstr "<b>安全相关的选项</b>"
+
+#: ../src/interface.c:3546
+msgid "Please push this button to apply the configuration."
+msgstr "按下应用所有设置"
+
+#: ../src/interface.c:3552
+msgid "Please push this button to discard the configuration."
+msgstr "按下取消所有设置"
+
+#: ../src/interface.c:3635
+msgid "Password"
+msgstr "密码"
+
+#: ../src/interface.c:3660
+msgid "Please input password here(push OK button to finish.)."
+msgstr "请输入密码（按确认键完成输入）"
+
+#: ../src/interface.c:3672
+msgid "Please push this button to discard your input."
+msgstr "按下按钮，取消输入"
+
+#: ../src/interface.c:3678
+msgid "Please push this button to finish inputing password."
+msgstr "按下按钮，完成密码的输入"
+
+#: ../src/interface.c:3733
+msgid "error"
+msgstr "错误"
+
+#: ../src/interface.c:3745
+msgid "g2ipmsg detects an error"
+msgstr "g2ipmsg 检测到一个错误"
+
+#: ../src/interface.c:3771 ../src/dialog.c:224
+msgid "Function"
+msgstr "函数"
+
+#: ../src/interface.c:3779 ../src/dialog.c:229
+msgid "Line"
+msgstr "行"
+
+#: ../src/interface.c:3814
+msgid "<b>Error Information</b>"
+msgstr "<b>错误信息</b>"
+
+#: ../src/interface.c:3838
+msgid "Descriptions of the error."
+msgstr "错误详细信息"
+
+#: ../src/interface.c:3842
+msgid "<b>Error Message</b>"
+msgstr "<b>错误通知</b>"
+
+#: ../src/interface.c:3855
+msgid "Please push this button to close this dialog."
+msgstr "按下关闭本窗口."
+
+#: ../src/callbacks.c:300
+#, c-format
+msgid "Can not send message to %s pktno=%d"
+msgstr "不能给 %s pktno=%d 发送消息"
+
+#: ../src/callbacks.c:468
+msgid "Broad cast addresses"
+msgstr "广播地址"
+
+#: ../src/callbacks.c:1086
+msgid "FileType"
+msgstr "文件类型"
+
+#: ../src/callbacks.c:2034 ../src/callbacks.c:2208 ../src/callbacks.c:2234
+#: ../src/callbacks.c:2349
+#, c-format
+msgid "Can not handle drag data %s (%d)"
+msgstr "无法处理拖放的数据 %s (%d)"
+
+#: ../src/callbacks.c:2642
+msgid "Can not open URL"
+msgstr "不能打开URL"
+
+#: ../src/callbacks.c:2644
+msgid "Please check your gnome configuration(url-handler setting)"
+msgstr "请检查你的gnome设置(url-handler 设置)"
+
+#: ../src/callbacks.c:3289
+#, c-format
+msgid "Can not require %s  to %s"
+msgstr "无法要求 %s 于 %s"
+
+#: ../src/support.c:60 ../src/support.c:85
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "不能找到图片文件:%s"
+
+#: ../src/hostinfo.c:177 ../src/hostinfo.c:285
+msgid "Undefined"
+msgstr "未定认"
+
+#.
+#. * 不在中でなければ, 在席通知を返却する
+#.
+#: ../src/hostinfo.c:442
+msgid "I am here."
+msgstr "我在"
+
+#: ../src/hostinfo.c:776 ../src/hostinfo.c:863 ../src/recvmsg.c:335
+#: ../src/dialog.c:112 ../src/dialog.c:115 ../src/dialog.c:122
+#: ../src/dialog.c:437 ../src/dialog.c:477 ../src/dialog.c:496
+#: ../src/dialog.c:509
+msgid "UnKnown"
+msgstr "不明"
+
+#: ../src/hostinfo.c:792
+msgid "Default Group"
+msgstr "默认组"
+
+#: ../src/hostinfo.c:847
+msgid "Default Nick Name"
+msgstr "默认昵称"
+
+#: ../src/menu.c:156
+msgid "FileNames"
+msgstr "文件名"
+
+#: ../src/menu.c:176
+msgid "Remains"
+msgstr "残余"
+
+#: ../src/menu.c:196
+msgid "Receivers"
+msgstr "收信人"
+
+#: ../src/menu.c:391
+msgid "DownLoadMonitor"
+msgstr "下载"
+
+#: ../src/menu.c:396
+msgid "Foreground all message windows"
+msgstr "前顶所有消息窗口"
+
+#: ../src/menu.c:399
+msgid "Remove opend windows"
+msgstr "关闭已开窗口"
+
+#: ../src/menu.c:416
+msgid "Show Log"
+msgstr "查看记录"
+
+#: ../src/menu.c:421
+msgid "Absence"
+msgstr "不在"
+
+#: ../src/menu.c:427
+msgid "Attend"
+msgstr "出席(不在解除)"
+
+#: ../src/msginfo.c:226
+msgid "Can not send"
+msgstr "不能发送消息"
+
+#: ../src/protocol.c:114 ../src/protocol.c:1549
+msgid "Can not convert common into external representation"
+msgstr "无法转换common到外部编码"
+
+#: ../src/protocol.c:130
+msgid "Can not convert message into external representation"
+msgstr "不能转换消息编码"
+
+#: ../src/protocol.c:146
+msgid "Can not convert extension into external representation"
+msgstr "无法转换extension到外部编码"
+
+#: ../src/protocol.c:262
+#, c-format
+msgid "Can not register message for:%s reason: %s error code = %d"
+msgstr "无法注册消息: %s 原因 : %s 错误代码 = %d"
+
+#: ../src/protocol.c:1512
+msgid "No extension  in file attached message.Ignore attachments."
+msgstr "附件没有扩展名，已经忽略"
+
+#: ../src/protocol.c:1883 ../src/protocol.c:1902
+msgid "Edition"
+msgstr "版本"
+
+#: ../src/protocol.c:1885 ../src/protocol.c:1902
+msgid "Version"
+msgstr "版本"
+
+#: ../src/protocol.c:1957 ../src/recvmsg.c:325 ../src/userdb.c:261
+#: ../src/userdb.c:266 ../src/userdb.c:272 ../src/userdb.c:278
+#: ../src/userdb.c:284 ../src/userdb.c:707 ../src/dialog.c:339
+#, c-format
+msgid "Can not convert message from %s into ineternal representation"
+msgstr "无法转换消息到外部编码 : %s"
+
+#: ../src/recvmsg.c:270
+msgid "Can not create download window"
+msgstr "无法创建下载窗口"
+
+#: ../src/recvmsg.c:408
+msgid "Remove the seal"
+msgstr "接收"
+
+#: ../src/recvmsg.c:409
+msgid "[Attachment]"
+msgstr "［附件］"
+
+#: ../src/recvmsg.c:410
+msgid "(Locked)"
+msgstr "（锁住的）"
+
+#: ../src/tcp.c:329
+msgid "Can not convert header into external representation"
+msgstr "不能转换标题编码"
+
+#: ../src/fuzai.c:98
+msgid "title"
+msgstr "不在通知标题"
+
+#: ../src/dialog.c:322
+msgid "Version Information"
+msgstr "版本"
+
+#: ../src/dialog.c:325
+msgid "Absence Information"
+msgstr "离开信息"
+
+#: ../src/dialog.c:374 ../src/dialog.c:414
+msgid "Capability"
+msgstr "能力"
+
+#: ../src/dialog.c:382 ../src/dialog.c:385
+msgid "Dial up"
+msgstr "拨号"
+
+#: ../src/dialog.c:382 ../src/dialog.c:391 ../src/dialog.c:400
+#: ../src/dialog.c:413
+msgid "YES"
+msgstr "是"
+
+#: ../src/dialog.c:385 ../src/dialog.c:394 ../src/dialog.c:403
+#: ../src/dialog.c:503
+msgid "NO"
+msgstr "否"
+
+#: ../src/dialog.c:391 ../src/dialog.c:394
+msgid "UTF-8"
+msgstr "UTF-8"
+
+#: ../src/dialog.c:400 ../src/dialog.c:403
+msgid "File Attach"
+msgstr "添加附件"
+
+#: ../src/dialog.c:413 ../src/dialog.c:502
+msgid "Encryption Capability"
+msgstr "加密功能"
+
+#: ../src/dialog.c:424
+msgid "Public key encryption"
+msgstr "公钥加密"
+
+#: ../src/dialog.c:446
+msgid "Symmetric key encryption"
+msgstr "对称加密"
+
+#: ../src/dialog.c:485
+msgid "Signature"
+msgstr "签名"
+
+#: ../src/dialog.c:490
+msgid "MD5"
+msgstr "MD5码"
+
+#: ../src/dialog.c:493
+msgid "SHA1"
+msgstr "SHA1码"
+
+#: ../src/dialog.c:686
+msgid "Password for public/private keys"
+msgstr "访问公钥密钥的密码"
+
+#: ../src/dialog.c:690
+msgid "Password message for lock."
+msgstr "锁的密码"
+
+#: ../src/cryptif.c:703
+msgid "Can not decode message"
+msgstr "不能解码消息编码"
+
+#: ../src/cryptif.c:703
+msgid "peer"
+msgstr "对方"
+
+#: ../src/base64.c:156
+msgid "Invalid char"
+msgstr "无效的字符"
+
+#~ msgid "Message decode failed"
+#~ msgstr "消息解码失败"
+
+#~ msgid "Remove the seal[Attachment]"
+#~ msgstr "接收[附件]"
+
+#~ msgid "Reason"
+#~ msgstr "原因"
+
+#~ msgid "translator-credits"
+#~ msgstr "翻译者"
+
+#~ msgid "users:"
+#~ msgstr "用户:"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "enable IP V6 mode (Need restart)"
+#~ msgstr "IP V6模式(要重启)"
+
+#~ msgid "g2ipmsg users:"
+#~ msgstr "飞鸽用户:"
+
+#~ msgid "User"
+#~ msgstr "用户名"
+
+#~ msgid "Host"
+#~ msgstr "主机名"
+
+#~ msgid "LogOn"
+#~ msgstr "登录名"
+
+#~ msgid "Regular"
+#~ msgstr "常规"
+
+#~ msgid "ReturnParent"
+#~ msgstr "返回"
+
+#~ msgid "SymLink"
+#~ msgstr "符号连接"
+
+#~ msgid "Character Device"
+#~ msgstr "文字型设备"
+
+#~ msgid "Block Device"
+#~ msgstr "块设备"
+
+#~ msgid "FIFO"
+#~ msgstr "FIFO"
+
+#~ msgid "ResFork"
+#~ msgstr "ResFork"
+
+#~ msgid "Helper Application"
+#~ msgstr "帮助"
+
+#~ msgid "Downloaded File"
+#~ msgstr "已下载文件"
+
+#~ msgid "Downloaded Size"
+#~ msgstr "已下载大小"
+
+#~ msgid "Unknown"
+#~ msgstr "不明"
+
+#~ msgid "FileID"
+#~ msgstr "文件ID"
+
+#~ msgid "Recv Size"
+#~ msgstr "收件大小"
+
+#~ msgid "Progress"
+#~ msgstr "進捗"
